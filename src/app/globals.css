@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +18,55 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@layer components {
+
+  .home-banner {
+    @apply bg-[url('/img/home/banner.jpg')] py-32 relative bg-cover bg-top bg-no-repeat;
+  }
+
+  .home-banner-content {
+    @apply relative z-20 w-full h-full flex justify-center items-center;
+  }
+  
+  .home-banner-content-wrapper {
+    @apply text-center my-auto max-w-[36.75rem] text-white;
+  }
+
+  .home-banner-content-headline {
+    @apply text-[3.5rem] font-black mb-4;
+  }
+
+  .home-banner-content-subheadline {
+    @apply text-[1.25rem] font-bold mb-8;
+  }
+
+  .home-banner-content-description {
+    @apply text-[1rem] font-normal mb-8;
+  }
+
+  .home-banner-content-form {
+    @apply flex justify-center;
+  }
+
+  .home-banner-content-form-text-field {
+    @apply text-[1rem] font-normal p-4 bg-transparent border-solid border border-[#ffffff]/30 rounded-[0.1875rem] mr-2 w-auto;
+  }
+
+  .home-banner-content-form-button {
+    @apply p-4 flex justify-center items-center font-bold bg-[#e50914] cursor-pointer duration-200 transition ease-out hover:ease-in hover:bg-[#c11119];
+  }
+
+  .home-banner-content-background {
+    @apply z-10 top-0 left-0 h-full w-full absolute bg-black/70;
+  }
+
 }
