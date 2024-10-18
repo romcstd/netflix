@@ -1,9 +1,24 @@
-// import Image from "next/image";
+import Image from "next/image";
+import Logo from '../../public/img/brand/netflix-logo.svg';
 import { FaAngleRight } from "react-icons/fa6";
 
 export default function Home() {
   return (
     <div>
+      <header className="header bg-header">
+        <div className="header-container">
+          <div className="header-left">
+            <Image
+              src={Logo}
+              alt="Netflix Logo"
+              className="header-logo"
+            />
+          </div>
+          <div className="header-right">
+            <button className="header-sign-in-button" type="submit">Sign In</button>
+          </div>
+        </div>
+      </header>
       <main>
         <section className="home-banner h-screen">
           <div className="home-banner-content">
