@@ -28,6 +28,11 @@ body {
   .bg-header {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
   }
+
+  .border-line {
+    height: 4px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+  }
 }
 
 @layer components {
@@ -65,35 +70,54 @@ body {
   }
   
   .home-banner-content-wrapper {
-    @apply text-center my-auto max-w-[36.75rem] text-white;
+    @apply text-center my-auto max-w-[36.75rem] text-white p-4 md:p-0;
   }
 
   .home-banner-content-headline {
-    @apply text-[3.5rem] font-black mb-4;
+    @apply text-[1.5rem] sm:text-[2.5rem] md:text-[3.5rem] font-black mb-8;
   }
 
   .home-banner-content-subheadline {
-    @apply text-[1.25rem] font-bold mb-8;
+    @apply text-[1rem] md:text-[1.5rem] font-bold mb-8;
   }
 
   .home-banner-content-description {
-    @apply text-[1rem] font-normal mb-8;
+    @apply text-[0.85rem] font-normal mb-8;
   }
 
   .home-banner-content-form {
-    @apply flex justify-center;
+    @apply block md:flex justify-center;
   }
 
   .home-banner-content-form-text-field {
-    @apply text-[1rem] font-normal p-4 bg-transparent border-solid border border-[#ffffff]/30 rounded-[0.1875rem] mr-2 w-auto;
+    @apply text-[1rem] font-normal p-4 bg-transparent border-solid border border-[#ffffff]/30 rounded-[0.1875rem] md:mr-2 w-full md:w-auto mb-4 md:mb-0 text-center md:text-left;
   }
 
   .home-banner-content-form-button {
-    @apply p-4 flex justify-center items-center font-bold bg-[#e50914] cursor-pointer duration-200 transition ease-out hover:ease-in hover:bg-[#c11119];
+    @apply p-4 flex justify-center items-center font-bold bg-[#e50914] cursor-pointer duration-200 transition ease-out hover:ease-in hover:bg-[#c11119] w-full md:w-auto;
   }
 
   .home-banner-content-background {
     @apply z-10 top-0 left-0 h-full w-full absolute bg-black/70;
   }
 
+  .trending-now {
+    @apply bg-[#0a0a0a] pt-[100px] pb-[100px] relative;
+  }
+
+  .trending-now-container {
+    @apply container mx-auto;
+  }
+
+  .trending-now-headline {
+    @apply text-[1.5rem] sm:text-[2.5rem] md:text-[3.5rem] font-black mb-8;
+  }
+
+  .trending-now-select {
+    @apply bg-transparent border-solid border border-[#ffffff]/30 rounded-[0.1875rem] text-white font-normal text-base border-white pt-[0.5rem] pr-[2.25rem] pb-[0.5rem] pl-[0.75rem];
+  }
+  
+  .trending-now-select:nth-of-type(1) {
+    @apply mr-4;
+  }
 }

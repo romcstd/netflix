@@ -34,6 +34,20 @@ export default function Home() {
           </div>
           <div className="home-banner-content-background"></div>
         </section>
+        <div className="border-line"></div>
+        <section className="trending-now">
+          <div className="trending-now-container">
+            <div className="trending-now-headline">Trending Now</div>
+            <select className="trending-now-select">
+              <option label="Philippines" value="local" selected>Philippines</option>
+              <option label="Global" value="global">Global</option>
+            </select>
+            <select className="trending-now-select">
+              <option label="Movies" value="localMovies" selected>Movies</option>
+              <option label="TV Shows" value="localTV">TV Shows</option>
+            </select>
+          </div>
+        </section>
       </main>
       <footer className=""></footer>
     </div>
