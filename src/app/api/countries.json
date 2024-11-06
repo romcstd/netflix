@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Philippines",
+        "value": "local"
+    },
+    {
+        "id": 2,
+        "name": "Global",
+        "value": "global"
+    }
+]
