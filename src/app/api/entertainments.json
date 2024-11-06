@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Movies",
+      "value": "localMovies",
+      "country": "local"
+    },
+    {
+      "id": 2,
+      "name": "TV Shows",
+      "value": "localTV",
+      "country": "local"
+    },
+    {
+      "id": 3,
+      "name": "Movies – English",
+      "value": "globalMoviesEnglish",
+      "country": "global"
+    },
+    {
+      "id": 4,
+      "name": "Movies – Other Languages",
+      "value": "globalMoviesNonEnglish",
+      "country": "global"
+    },
+    {
+      "id": 5,
+      "name": "TV Shows – English",
+      "value": "globalTvEnglish",
+      "country": "global"
+    },
+    {
+      "id": 6,
+      "name": "TV Shows – Other Languages",
+      "value": "globalTvNonEnglish",
+      "country": "global"
+    }
+]
