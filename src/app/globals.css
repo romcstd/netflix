@@ -120,4 +120,8 @@ body {
   .trending-now-select:nth-of-type(1) {
     @apply mr-4;
   }
+
+  .trending-now-select > option {
+    @apply text-black;
+  }
 }
