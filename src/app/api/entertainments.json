@@ -13,26 +13,14 @@
     },
     {
       "id": 3,
-      "name": "Movies – English",
-      "value": "globalMoviesEnglish",
+      "name": "Movies",
+      "value": "globalMovies",
       "country": "global"
     },
     {
       "id": 4,
-      "name": "Movies – Other Languages",
-      "value": "globalMoviesNonEnglish",
-      "country": "global"
-    },
-    {
-      "id": 5,
-      "name": "TV Shows – English",
-      "value": "globalTvEnglish",
-      "country": "global"
-    },
-    {
-      "id": 6,
-      "name": "TV Shows – Other Languages",
-      "value": "globalTvNonEnglish",
+      "name": "TV Shows",
+      "value": "globalTV",
       "country": "global"
     }
 ]
