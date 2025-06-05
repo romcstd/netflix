@@ -2,31 +2,23 @@
 import Image from "next/image";
 import Logo from '../../public/img/brand/netflix-logo.svg';
 import { FaAngleRight } from "react-icons/fa6";
-import { useState, useMemo, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import countries from "./api/countries.json"
 import entertainments from "./api/entertainments.json"
-import shows from "./api/trending/local/series.json"
 
 export default function Home() {
 
   const [selectedCountry, setSelectedCountry] = useState(countries[0].value);
-  const [selectedEntertainment, setSelectedEntertainment] = useState("");
+  const [filteredEntertainment, setFilteredEntertainment] = useState([]);
 
-  // Filter entertainments by selected country
-  const filteredEntertainment = useMemo(() => {
-    return entertainments.filter((ent) => ent.country === selectedCountry);
-  }, [selectedCountry]);
+  const changeSelectOptionCountry = (event) => {
+    setSelectedCountry(event.target.value);
+  };
 
   useEffect(() => {
-    if (filteredEntertainment.length > 0) {
-      setSelectedEntertainment(filteredEntertainment[0].value);
-    }
-  }, [filteredEntertainment])
-
-  const data = useMemo(() => {
-    return shows.entertainment[selectedEntertainment] || [];
-  }, [selectedEntertainment]);
+    setFilteredEntertainment(entertainments.filter((entertainment) => entertainment.country === selectedCountry));
+  }, [selectedCountry])
 
   return (
     <div>
@@ -63,23 +55,17 @@ export default function Home() {
         <section className="trending-now">
           <div className="trending-now-container">
             <div className="trending-now-headline">Trending Now</div>
-            <select value={selectedCountry} className="trending-now-select" onChange={(e) => setSelectedCountry(e.target.value)}>
+            <select className="trending-now-select" onChange={changeSelectOptionCountry}>
               {countries.map((country) => (
                 <option key={country.id} label={country.name} value={country.value} name={country.name}>{country.name}</option>
               ))}
             </select>
-            <select value={selectedEntertainment} className="trending-now-select" onChange={(e) => setSelectedEntertainment(e.target.value)}>
+            <select className="trending-now-select">
               {filteredEntertainment.map((entertainment) => (
                 <option key={entertainment.id} label={entertainment.name} value={entertainment.value} name={entertainment.name}>{entertainment.name}</option>
               ))}
             </select>
-            <div className="mt-8">
-              {data?.map((data) => (
-                <div key={data.id}>{data.name}</div>
-              ))}
-            </div>
           </div>
-
         </section>
       </main>
       <footer className=""></footer>
