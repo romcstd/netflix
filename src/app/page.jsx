@@ -6,7 +6,7 @@ import { useState, useMemo, useEffect } from "react";
 
 import countries from "./api/countries.json"
 import entertainments from "./api/entertainments.json"
-import shows from "./api/trending/local/shows.json"
+import shows from "./api/shows.json"
 
 export default function Home() {
 
