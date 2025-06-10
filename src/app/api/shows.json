@@ -1,12 +1,410 @@
 {
-    "version": "release-v1.5",
-    "updated": "2025-06-05",
+    "version": "release-v1.6",
+    "updated": "2025-06-11",
     "entertainment": {
         "localMovies": [
             {
                 "id": 1,
+                "name": "Mission Impossible",
+                "title": "Mission Impossible",
+                "year": "2023",
+                "duration": "",
+                "description": "With time running out and enemies at every turn, Ethan Hunt and his IMF team race to prevent a rogue artificial intelligence from taking over the world.",
+                "genre": [
+                    "Action & Adventure Movies",
+                    "Spy Movies",
+                    "US Movies"
+                ],
+                "cast": [
+                    "Tom Cruise",
+                    "Hayley Atwell",
+                    "Ving Rhames"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/b9e9da67-098a-4387-b01e-0efe525d684f",
+                "link": "https://www.netflix.com/watch/81665878"
+            },
+            {
+                "id": 2,
+                "name": "Straw",
+                "title": "Straw",
+                "year": "2025",
+                "duration": "",
+                "description": "In this tense, twisty thriller from Tyler Perry, a devoted single mother is pushed to the brink when a desperately bad day spirals out of control.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/d5e368f4-c047-41d9-91e0-ede00f1d4e4d",
+                "link": "https://www.netflix.com/watch/81774713"
+            },
+            {
+                "id": 3,
+                "name": "Uninvited",
+                "title": "Uninvited",
+                "year": "2025",
+                "duration": "",
+                "description": "At a billionaire's opulent party, a grieving mother (Vilma Santos) in disguise plots to kill the host to avenge her daughter's brutal murder.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/2696bafd-e096-4685-853b-3e1e9ecd74e9",
+                "link": "https://www.netflix.com/watch/82023328"
+            },
+            {
+                "id": 4,
+                "name": "K.O",
+                "title": "K.O",
+                "year": "2025",
+                "duration": "",
+                "description": "With the police unable to find her missing son, a desperate widow seeks out the disgraced MMA fighter who accidentally killed her husband years earlier.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/b7847762-7f8b-45b6-889b-ba5a00e0e9ee",
+                "link": "https://www.netflix.com/watch/81745661"
+            },
+            {
+                "id": 5,
+                "name": "Everything about my Wife",
+                "title": "Everything about my Wife",
+                "year": "2025",
+                "duration": "",
+                "description": "Eager to ditch his wife, a man hires a handsome womanizer to seduce her — only to realize he's made a huge mistake when he falls back in love.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/b1a12640-2c68-4e94-afe8-7ca3b999fbaa",
+                "link": "https://www.netflix.com/watch/81783748"
+            },
+            {
+                "id": 6,
+                "name": "Paddington in Peru",
+                "title": "Paddington in Peru",
+                "year": "2025",
+                "duration": "",
+                "description": "A marmalade-loving bear embarks on an adventure to his homeland on a quest to find his Aunt Lucy – and a mysterious secret city.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "7+",
+                "sourceBlob": "blob:https://www.netflix.com/040c444e-f888-42b4-b0fc-92d8cb2280c0",
+                "link": "https://www.netflix.com/watch/81776760"
+            },
+            {
+                "id": 7,
+                "name": "World War Z",
+                "title": "World War Z",
+                "year": "2013",
+                "duration": "1h 57m",
+                "description": "Run if you can. Hide if there's time. But whatever you do, don't let them bite you! Brad Pitt stars in this intense thriller about a zombie contagion.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/e11f26eb-8d29-467f-86e5-03997f89b762",
+                "link": "https://www.netflix.com/watch/70262639"
+            },
+            {
+                "id": 8,
+                "name": "Scarecrow",
+                "title": "Scarecrow",
+                "year": "2024",
+                "duration": "1h 30m",
+                "description": "As a family clashes over their late father's land, an eerie painting appears and releases something sinister during the nine-day funeral ritual.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/74811c03-7708-4cc7-9bfe-258b053dd61c",
+                "link": "https://www.netflix.com/watch/82020763"
+            },
+            {
+                "id": 9,
+                "name": "The Demon's Bride",
+                "title": "The Demon's Bride",
+                "year": "2025",
+                "duration": "1h 45m",
+                "description": "When her daughter is severely injured, a desperate mother makes a deal with a demon to save her — but the price will have to be paid in blood.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/b306a10a-79bf-42cd-94b2-2b1fd486dd61",
+                "link": "https://www.netflix.com/watch/82027346"
+            },
+            {
+                "id": 10,
+                "name": "Jaat",
+                "title": "Jaat",
+                "year": "2025",
+                "duration": "2h 30m",
+                "description": "A mysterious stranger journeys to a remote town controlled by a callous crime lord, with one violent mission — restoring justice to its people.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
+                "link": "https://www.netflix.com/watch/82034833"
+            }
+        ],
+        "localTV": [
+            {
+                "id": 1,
+                "name": "Bet",
+                "title": "Bet",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "At a private school where gambling determines social status, a skillful new student with a mysterious past is shaking things up — and betting on revenge.",
+                "genre": [
+                    "TV Dramas",
+                    "Teen TV",
+                    "Shows",
+                    "US TV Shows"
+                ],
+                "cast": [
+                    "Miku Martineau",
+                    "Ayo Solanke",
+                    "Clara Alexandrova"
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/3ed0170e-3c99-4fdd-be0a-789dd974a332",
+                "link": "https://www.netflix.com/watch/81729868"
+            },
+            {
+                "id": 2,
+                "name": "Tastefully Yours",
+                "title": "Tastefully Yours",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "Driven to claim top culinary honors, an arrogant heir meets a low-profile but stubborn chef whose recipes astonish him — sparking an unlikely romance.",
+                "genre": [
+                    "Romantic TV Dramas",
+                    "TV Dramas",
+                    "Korean"
+                ],
+                "cast": [
+                    "Kang Ha-neul",
+                    "Ko Min-si",
+                    "Kim Shin-rock",
+                    "more"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/ddf72c66-2bdc-4759-af3a-1566186a125c",
+                "link": "https://www.netflix.com/watch/81971174"
+            },
+            {
+                "id": 3,
+                "name": "Our Unwritten Seoul",
+                "title": "Our Unwritten Seoul",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "Twin sisters, whose similarities end with their looks, swap identities amid personal struggles — embarking on a journey to rediscover love and life.",
+                "genre": [
+                    "TV Dramas",
+                    "Korean"
+                ],
+                "cast": [
+                    "Park Bo-young",
+                    "Park Jin-young",
+                    "Ryu Kyung-soo"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/cde2da15-f6d7-4c26-a8cd-cd2646e97206",
+                "link": "https://www.netflix.com/watch/82024838"
+            },
+            {
+                "id": 4,
+                "name": "Oh My Ghost Clients",
+                "title": "Oh My Ghost Clients",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "A near-fatal accident leaves aimless labor attorney with the ability to see ghosts and a deal to take on their supernatural cases to survive.",
+                "genre": [
+                    "TV Dramas",
+                    "Korean",
+                    "TV Comedies"
+                ],
+                "cast": [
+                    "Jung Kyung-ho",
+                    "Seor In-a",
+                    "Cha Hak-yeon"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/000cf785-9b4a-44a5-8261-c7004880a699",
+                "link": "https://www.netflix.com/watch/82061115"
+            },
+            {
+                "id": 5,
+                "name": "Incognito",
+                "title": "Incognito",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "In search of redemption, a crew of misfits joins a private military company on a series of deadly missions against the criminal underworld.",
+                "genre": [
+                    "Filipino",
+                    "TV Dramas",
+                    "TV Action & Adventure"
+                ],
+                "cast": [
+                    "Richard Gutierrez",
+                    "Daniel Padilla",
+                    "Baron Geisler"
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/5a96f25e-a657-4b09-9f24-129cda0a0bbc",
+                "link": "https://www.netflix.com/watch/81914623"
+            },
+            {
+                "id": 6,
+                "name": "Sara - Woman in the Shadows",
+                "title": "Sara - Woman in the Shadows",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "The suspicious death of her son pushes a former secret agent back into action, investigating a series of crimes that grows increasingly sinister.",
+                "genre": [
+                    "TV Dramas",
+                    "Italian",
+                    "TV Shows Based on Books"
+                ],
+                "cast": [
+                    "Teresa Saponangelo",
+                    "Claudia Gerini",
+                    "Flavio Furno"
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/d84c9065-2112-4bc2-98e8-8b0c2a29b0f4",
+                "link": "https://www.netflix.com/watch/81515638"
+            },
+            {
+                "id": 7,
+                "name": "Mad Unicorn",
+                "title": "Mad Unicorn",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "Hoping to escape poverty, an aspiring entrepreneur comes up with a brilliant idea for a courier service that might just make him rich. But at what cost?",
+                "genre": [
+                    "TV Dramas",
+                    "Thai"
+                ],
+                "cast": [
+                    "Natara",
+                    "Janeyeh Jiranorraphat",
+                    "Dr. Palang Rocksilp"
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/4fff9916-d4a9-4cf2-9bf4-8e16e10e2d16",
+                "link": "https://www.netflix.com/watch/81595549"
+            },
+            {
+                "id": 8,
+                "name": "The Haunted Palace",
+                "title": "The Haunted Palace",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "Born with shamanic powers that she refuses to accept, a young woman confronts her gift to rid the Joseon palace of evil spirits and save her first love.",
+                "genre": [
+                    "Romantic TV Dramas",
+                    "TV Dramas",
+                    "Korean"
+                ],
+                "cast": [
+                    "Yook Sung-jae",
+                    "Kim Ji-yeon",
+                    "Kim Ji-hun"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/1511e910-cb8b-4746-89fa-43457d37f49e",
+                "link": "https://www.netflix.com/watch/82031220"
+            },
+            {
+                "id": 9,
+                "name": "American Manhunt: Osama bin Laden",
+                "title": "American Manhunt: Osama bin Laden",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "From Ground Zero to the mountains of Pakistan, this thrilling documentary series explores the hunt for Osama bin Laden in the decade following 9/11.",
+                "genre": [
+                    "Documentary Series",
+                    "US TV Shows"
+                ],
+                "cast": [],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/1b0fced1-db9e-4f65-94da-34518ec00091",
+                "link": "https://www.netflix.com/watch/81700898"
+            },
+            {
+                "id": 10,
                 "name": "Youth Glory",
                 "title": "Youth Glory",
+                "year": "2025",
+                "duration": "2h 00m",
                 "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
                 "genre": [
                     "Romantic TV Dramas",
@@ -23,142 +421,50 @@
                 "link": "https://www.netflix.com/watch/83073203"
             }
         ],
-        "localTV": [
-            {
-                "id": 1,
-                "name": "Bet",
-                "title": "Bet",
-                "description": "At a private school where gambling determines social status, a skillful new student with a mysterious past is shaking things up — and betting on revenge.",
-                "genre": "TV Dramas, Teen TV, Shows, US TV Shows",
-                "cast": "Miku Martineau, Ayo Solanke, Clara Alexandrova, more",
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/3ed0170e-3c99-4fdd-be0a-789dd974a332",
-                "link": "https://www.netflix.com/watch/81729868"
-            },
-            {
-                "id": 2,
-                "name": "Tastefully Yours",
-                "title": "Tastefully Yours",
-                "description": "Driven to claim top culinary honors, an arrogant heir meets a low-profile but stubborn chef whose recipes astonish him — sparking an unlikely romance.",
-                "genre": "Romantic TV Dramas, TV Dramas, Korean",
-                "cast": "Kang Ha-neul, Ko Min-si, Kim Shin-rock, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/ddf72c66-2bdc-4759-af3a-1566186a125c",
-                "link": "https://www.netflix.com/watch/81971174"
-            },
-            {
-                "id": 3,
-                "name": "Our Unwritten Seoul",
-                "title": "Our Unwritten Seoul",
-                "description": "Twin sisters, whose similarities end with their looks, swap identities amid personal struggles — embarking on a journey to rediscover love and life.",
-                "genre": "TV Dramas, Korean",
-                "cast": "Park Bo-young, Park Jin-young, Ryu Kyung-soo, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/cde2da15-f6d7-4c26-a8cd-cd2646e97206",
-                "link": "https://www.netflix.com/watch/82024838"
-            },
-            {
-                "id": 4,
-                "name": "Oh My Ghost Clients",
-                "title": "Oh My Ghost Clients",
-                "description": "A near-fatal accident leaves aimless labor attorney with the ability to see ghosts and a deal to take on their supernatural cases to survive.",
-                "genre": "TV Dramas, Korean, TV Comedies",
-                "cast": "Jung Kyung-ho, Seor In-a, Cha Hak-yeon, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/000cf785-9b4a-44a5-8261-c7004880a699",
-                "link": "https://www.netflix.com/watch/82061115"
-            },
-            {
-                "id": 5,
-                "name": "Incognito",
-                "title": "Incognito",
-                "description": "In search of redemption, a crew of misfits joins a private military company on a series of deadly missions against the criminal underworld.",
-                "genre": "Filipino, TV Dramas, TV Action & Adventure",
-                "cast": "Richard Gutierrez, Daniel Padilla, Baron Geisler, more",
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/5a96f25e-a657-4b09-9f24-129cda0a0bbc",
-                "link": "https://www.netflix.com/watch/81914623"
-            },
-            {
-                "id": 6,
-                "name": "Sara - Woman in the Shadows",
-                "title": "Sara - Woman in the Shadows",
-                "description": "The suspicious death of her son pushes a former secret agent back into action, investigating a series of crimes that grows increasingly sinister.",
-                "genre": "TV Dramas, Italian, TV Shows Based on Books",
-                "cast": "Teresa Saponangelo, Claudia, Gerini, Flavio Furno, more",
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/d84c9065-2112-4bc2-98e8-8b0c2a29b0f4",
-                "link": "https://www.netflix.com/watch/81515638"
-            },
-            {
-                "id": 7,
-                "name": "Mad Unicorn",
-                "title": "Mad Unicorn",
-                "description": "Hoping to escape poverty, an aspiring entrepreneur comes up with a brilliant idea for a courier service that might just make him rich. But at what cost?",
-                "genre": "TV Dramas, Thai",
-                "cast": "Natara, Janeyeh Jiranorraphat, Dr. Palang Rocksilp, more",
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/4fff9916-d4a9-4cf2-9bf4-8e16e10e2d16",
-                "link": "https://www.netflix.com/watch/81595549"
-            },
-            {
-                "id": 8,
-                "name": "The Haunted Palace",
-                "title": "The Haunted Palace",
-                "description": "Born with shamanic powers that she refuses to accept, a young woman confronts her gift to rid the Joseon palace of evil spirits and save her first love.",
-                "genre": "Romantic TV Dramas, TV Dramas, Korean",
-                "cast": "Yook Sung-jae, Kim Ji-yeon, Kim Ji-hun, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/1511e910-cb8b-4746-89fa-43457d37f49e",
-                "link": "https://www.netflix.com/watch/82031220"
-            },
-            {
-                "id": 9,
-                "name": "American Manhunt: Osama bin Laden",
-                "title": "American Manhunt: Osama bin Laden",
-                "description": "From Ground Zero to the mountains of Pakistan, this thrilling documentary series explores the hunt for Osama bin Laden in the decade following 9/11.",
-                "genre": "Documentary Series, US TV Shows",
-                "cast": [],
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/1b0fced1-db9e-4f65-94da-34518ec00091",
-                "link": "https://www.netflix.com/watch/81700898"
-            },
-            {
-                "id": 10,
-                "name": "Youth Glory",
-                "title": "Youth Glory",
-                "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
-                "genre": "Romantic TV Dramas, TV Dramas, Mainland Chinese TV Shows",
-                "cast": "Song Weilong, Bao Shangen, Dai Luwa, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/955ae80d-900e-4607-a815-dc285fbe2dd1",
-                "link": "https://www.netflix.com/watch/83073203"
-            }
-        ],
         "globalMovies": [
             {
                 "id": 1,
-                "name": "The Haunted Palace",
-                "title": "The Haunted Palace",
-                "description": "Born with shamanic powers that she refuses to accept, a young woman confronts her gift to rid the Joseon palace of evil spirits and save her first love.",
-                "genre": "Romantic TV Dramas, TV Dramas, Korean",
-                "cast": "Yook Sung-jae, Kim Ji-yeon, Kim Ji-hun, more",
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/1511e910-cb8b-4746-89fa-43457d37f49e",
-                "link": "https://www.netflix.com/watch/82031220"
+                "name": "Jaat",
+                "title": "Jaat",
+                "year": "2025",
+                "duration": "2h 30m",
+                "description": "A mysterious stranger journeys to a remote town controlled by a callous crime lord, with one violent mission — restoring justice to its people.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
+                "link": "https://www.netflix.com/watch/82034833"
             }
         ],
         "globalTV": [
-            {
-                "id": 13,
-                "name": "Mad Unicorn",
-                "title": "Mad Unicorn",
-                "description": "Hoping to escape poverty, an aspiring entrepreneur comes up with a brilliant idea for a courier service that might just make him rich. But at what cost?",
-                "genre": "TV Dramas, Thai",
-                "cast": "Natara, Janeyeh Jiranorraphat, Dr. Palang Rocksilp, more",
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/4fff9916-d4a9-4cf2-9bf4-8e16e10e2d16",
-                "link": "https://www.netflix.com/watch/81595549"
+             {
+                "id": 1,
+                "name": "Youth Glory",
+                "title": "Youth Glory",
+                "year": "2025",
+                "duration": "2h 00m",
+                "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
+                "genre": [
+                    "Romantic TV Dramas",
+                    "TV Dramas",
+                    "Mainland Chinese TV Shows"
+                ],
+                "cast": [
+                    "Song Weilong",
+                    "Bao Shangen",
+                    "Dai Luwa"
+                ],
+                "rating": "13+",
+                "sourceBlob": "blob:https://www.netflix.com/955ae80d-900e-4607-a815-dc285fbe2dd1",
+                "link": "https://www.netflix.com/watch/83073203"
             }
         ]
     }
