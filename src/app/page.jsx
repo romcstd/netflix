@@ -9,21 +9,29 @@ import entertainments from "./api/entertainments.json"
 import shows from "./api/shows.json"
 
 export default function Home() {
-
+  // State to track selected country and entertainment
   const [selectedCountry, setSelectedCountry] = useState(countries[0].value);
-  const [selectedEntertainment, setSelectedEntertainment] = useState("");
+  const [selectedEntertainment, setSelectedEntertainment] = useState(entertainments[0].value);
 
-  // Filter entertainments by selected country
+  // Filter entertainments based on selected country
   const filteredEntertainment = useMemo(() => {
     return entertainments.filter((ent) => ent.country === selectedCountry);
   }, [selectedCountry]);
 
+  // Derive the entertainment name based on selected entertainment value
+  const selectedEntertainmentName = useMemo(() => {
+    const match = filteredEntertainment.find(ent => ent.value === selectedEntertainment);
+    return match ? match.name : '';
+  }, [filteredEntertainment, selectedEntertainment]);
+
+  // Automatically set the first available entertainment type when country changes
   useEffect(() => {
     if (filteredEntertainment.length > 0) {
       setSelectedEntertainment(filteredEntertainment[0].value);
     }
   }, [filteredEntertainment])
 
+  // Get the shows for the currently selected entertainment
   const data = useMemo(() => {
     return shows.entertainment[selectedEntertainment] || [];
   }, [selectedEntertainment]);
@@ -60,26 +68,33 @@ export default function Home() {
           <div className="home-banner-content-background"></div>
         </section>
         <div className="border-line"></div>
-        <section className="trending-now">
-          <div className="trending-now-container">
-            <div className="trending-now-headline">Trending Now</div>
-            <select value={selectedCountry} className="trending-now-select" onChange={(e) => setSelectedCountry(e.target.value)}>
-              {countries.map((country) => (
-                <option key={country.id} label={country.name} value={country.value} name={country.name}>{country.name}</option>
-              ))}
-            </select>
-            <select value={selectedEntertainment} className="trending-now-select" onChange={(e) => setSelectedEntertainment(e.target.value)}>
-              {filteredEntertainment.map((entertainment) => (
-                <option key={entertainment.id} label={entertainment.name} value={entertainment.value} name={entertainment.name}>{entertainment.name}</option>
-              ))}
-            </select>
-            <div className="mt-8">
+        <section className="top-10">
+          <div className="top-10-container">
+            <div className="top-10-headline">
+              {selectedCountry === "philippines" ? (
+                <>TOP 10 {selectedEntertainmentName} IN {selectedCountry}</>
+              ) :
+                <>{selectedCountry} TOP 10 {selectedEntertainmentName}</>
+              }
+            </div>
+            <div className="top-10-category">
+              <select value={selectedCountry} className="top-10-category-select" onChange={(e) => setSelectedCountry(e.target.value)}>
+                {countries.map((country) => (
+                  <option key={country.id} label={country.name} value={country.value} name={country.name}>{country.name}</option>
+                ))}
+              </select>
+              <select value={selectedEntertainment} className="top-10-category-select" onChange={(e) => setSelectedEntertainment(e.target.value)}>
+                {filteredEntertainment.map((entertainment) => (
+                  <option key={entertainment.id} label={entertainment.name} value={entertainment.value} name={entertainment.name}>{entertainment.name}</option>
+                ))}
+              </select>
+            </div>
+            <div className="top-10-cards">
               {data?.map((data) => (
                 <div key={data.id}>{data.name}</div>
               ))}
             </div>
           </div>
-
         </section>
       </main>
       <footer className=""></footer>
