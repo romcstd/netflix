@@ -1,5 +1,5 @@
 {
-    "version": "release-v1.6",
+    "version": "release-v1.7",
     "updated": "2025-06-11",
     "entertainment": {
         "localMovies": [
@@ -214,7 +214,7 @@
                 "link": "https://www.netflix.com/watch/82034833"
             }
         ],
-        "localTV": [
+        "localShows": [
             {
                 "id": 1,
                 "name": "Bet",
@@ -444,7 +444,7 @@
                 "link": "https://www.netflix.com/watch/82034833"
             }
         ],
-        "globalTV": [
+        "globalShows": [
              {
                 "id": 1,
                 "name": "Youth Glory",

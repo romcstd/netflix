@@ -3,13 +3,13 @@
       "id": 1,
       "name": "Movies",
       "value": "localMovies",
-      "country": "local"
+      "country": "philippines"
     },
     {
       "id": 2,
-      "name": "TV Shows",
-      "value": "localTV",
-      "country": "local"
+      "name": "Shows",
+      "value": "localShows",
+      "country": "philippines"
     },
     {
       "id": 3,
@@ -19,8 +19,8 @@
     },
     {
       "id": 4,
-      "name": "TV Shows",
-      "value": "globalTV",
+      "name": "Shows",
+      "value": "globalShows",
       "country": "global"
     }
 ]
