@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import Logo from '../../public/img/brand/netflix-logo.svg';
+import Top10Logo from '../../public/img/top-10/Top10Badge.svg';
 import { FaAngleRight } from "react-icons/fa6";
 import { useState, useMemo, useEffect } from "react";
 
@@ -36,6 +37,16 @@ export default function Home() {
     return shows.entertainment[selectedEntertainment] || [];
   }, [selectedEntertainment]);
 
+
+  const getTop10Headline = () => {
+    switch (selectedCountry) {
+      case "philippines":
+        return `Top 10 ${selectedEntertainmentName} in ${selectedCountry}`;
+      default:
+        return `${selectedCountry} Top 10 ${selectedEntertainmentName}`;
+    }
+  };
+
   return (
     <div>
       <header className="header bg-header">
@@ -69,27 +80,47 @@ export default function Home() {
         </section>
         <div className="border-line"></div>
         <section className="top-10">
-          <div className="top-10-container">
-            <div className="top-10-headline">
-              {selectedCountry === "philippines" ? (
-                <>TOP 10 {selectedEntertainmentName} IN {selectedCountry}</>
-              ) :
-                <>{selectedCountry} TOP 10 {selectedEntertainmentName}</>
-              }
+          <div className="top-10-category">
+            <div className="top-10-category-container">
+              <Image
+                src={Top10Logo}
+                alt="Netflix Top 10 Logo"
+                className="top-10-category-logo"
+                width={40}
+              />
+              <div className="top-10-category-select-wrapper">
+                <select value={selectedCountry} className="top-10-category-select" onChange={(e) => setSelectedCountry(e.target.value)}>
+                  {countries.map((country) => (
+                    <option key={country.id} label={country.name} value={country.value} name={country.name}>{country.name}</option>
+                  ))}
+                </select>
+                <div className="top-10-category-select-icon-wrapper">
+                  <svg className="top-10-category-select-icon" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+              <div className="top-10-category-select-wrapper">
+                <select value={selectedEntertainment} className="top-10-category-select" onChange={(e) => setSelectedEntertainment(e.target.value)}>
+                  {filteredEntertainment.map((entertainment) => (
+                    <option key={entertainment.id} label={entertainment.name} value={entertainment.value} name={entertainment.name}>{entertainment.name}</option>
+                  ))}
+                </select>
+                <div className="top-10-category-select-icon-wrapper">
+                  <svg className="top-10-category-select-icon" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
             </div>
-            <div className="top-10-category">
-              <select value={selectedCountry} className="top-10-category-select" onChange={(e) => setSelectedCountry(e.target.value)}>
-                {countries.map((country) => (
-                  <option key={country.id} label={country.name} value={country.value} name={country.name}>{country.name}</option>
-                ))}
-              </select>
-              <select value={selectedEntertainment} className="top-10-category-select" onChange={(e) => setSelectedEntertainment(e.target.value)}>
-                {filteredEntertainment.map((entertainment) => (
-                  <option key={entertainment.id} label={entertainment.name} value={entertainment.value} name={entertainment.name}>{entertainment.name}</option>
-                ))}
-              </select>
+          </div>
+          <div className="top-10-headline">
+            <div className="top-10-headline-container">
+              {getTop10Headline()}
             </div>
-            <div className="top-10-cards">
+          </div>
+          <div className="top-10-cards">
+            <div className="top-10-cards-container">
               {data?.map((data) => (
                 <div key={data.id}>{data.name}</div>
               ))}
