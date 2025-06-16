@@ -1,25 +1,25 @@
 [
     {
       "id": 1,
-      "name": "Movies",
+      "name": "movies",
       "value": "localMovies",
       "country": "philippines"
     },
     {
       "id": 2,
-      "name": "Shows",
+      "name": "shows",
       "value": "localShows",
       "country": "philippines"
     },
     {
       "id": 3,
-      "name": "Movies",
+      "name": "movies",
       "value": "globalMovies",
       "country": "global"
     },
     {
       "id": 4,
-      "name": "Shows",
+      "name": "shows",
       "value": "globalShows",
       "country": "global"
     }
