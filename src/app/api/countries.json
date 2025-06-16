@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Philippines",
+        "name": "philippines",
         "value": "philippines"
     },
     {
         "id": 2,
-        "name": "Global",
+        "name": "global",
         "value": "global"
     }
 ]

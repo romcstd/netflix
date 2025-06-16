@@ -1,6 +1,6 @@
 {
-    "version": "release-v1.7",
-    "updated": "2025-06-11",
+    "version": "release-v1.8",
+    "updated": "2025-06-16",
     "entertainment": {
         "localMovies": [
             {
@@ -8,7 +8,7 @@
                 "name": "Mission Impossible",
                 "title": "Mission Impossible",
                 "year": "2023",
-                "duration": "",
+                "duration": "2h 44m",
                 "description": "With time running out and enemies at every turn, Ethan Hunt and his IMF team race to prevent a rogue artificial intelligence from taking over the world.",
                 "genre": [
                     "Action & Adventure Movies",
@@ -29,17 +29,17 @@
                 "name": "Straw",
                 "title": "Straw",
                 "year": "2025",
-                "duration": "",
+                "duration": "1h 47m",
                 "description": "In this tense, twisty thriller from Tyler Perry, a devoted single mother is pushed to the brink when a desperately bad day spirals out of control.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Drama Movies",
+                    "Thriller Movies",
+                    "Social Issue Dramas"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Taraji P. Henson",
+                    "Sherri Shepherd",
+                    "Teyana Taylor"
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/d5e368f4-c047-41d9-91e0-ede00f1d4e4d",
@@ -50,17 +50,17 @@
                 "name": "Uninvited",
                 "title": "Uninvited",
                 "year": "2025",
-                "duration": "",
+                "duration": "1h 33m",
                 "description": "At a billionaire's opulent party, a grieving mother (Vilma Santos) in disguise plots to kill the host to avenge her daughter's brutal murder.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Filipino",
+                    "Crime Movies",
+                    "Drama Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Vilma Santos",
+                    "Nadine Lustre",
+                    "Aga Muhlach"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/2696bafd-e096-4685-853b-3e1e9ecd74e9",
@@ -71,17 +71,17 @@
                 "name": "K.O",
                 "title": "K.O",
                 "year": "2025",
-                "duration": "",
+                "duration": "1h 26m",
                 "description": "With the police unable to find her missing son, a desperate widow seeks out the disgraced MMA fighter who accidentally killed her husband years earlier.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "French",
+                    "Crime Movies",
+                    "Drama Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Ciryl Gane",
+                    "Alice Belaïdi",
+                    "Foued Nabba"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/b7847762-7f8b-45b6-889b-ba5a00e0e9ee",
@@ -92,17 +92,17 @@
                 "name": "Everything about my Wife",
                 "title": "Everything about my Wife",
                 "year": "2025",
-                "duration": "",
+                "duration": "1h 50m",
                 "description": "Eager to ditch his wife, a man hires a handsome womanizer to seduce her — only to realize he's made a huge mistake when he falls back in love.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Filipino",
+                    "Romantic Comedy Movies",
+                    "Comedy Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Jennylyn Mercado",
+                    "Dennis Trillo",
+                    "Sam Milby"
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/b1a12640-2c68-4e94-afe8-7ca3b999fbaa",
@@ -112,18 +112,18 @@
                 "id": 6,
                 "name": "Paddington in Peru",
                 "title": "Paddington in Peru",
-                "year": "2025",
-                "duration": "",
+                "year": "2024",
+                "duration": "1h 46m",
                 "description": "A marmalade-loving bear embarks on an adventure to his homeland on a quest to find his Aunt Lucy – and a mysterious secret city.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Family Movies",
+                    "Kids & Family Movies",
+                    "British"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Ben Whishaw",
+                    "Hugh Bonneville",
+                    "Emily Mortimer"
                 ],
                 "rating": "7+",
                 "sourceBlob": "blob:https://www.netflix.com/040c444e-f888-42b4-b0fc-92d8cb2280c0",
@@ -137,14 +137,14 @@
                 "duration": "1h 57m",
                 "description": "Run if you can. Hide if there's time. But whatever you do, don't let them bite you! Brad Pitt stars in this intense thriller about a zombie contagion.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Sci-Fi Movies",
+                    "Horror Movies",
+                    "Movies Based on Books"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Brad Pitt",
+                    "Mireille Enos",
+                    "Daniella Kertesz"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/e11f26eb-8d29-467f-86e5-03997f89b762",
@@ -158,14 +158,13 @@
                 "duration": "1h 30m",
                 "description": "As a family clashes over their late father's land, an eerie painting appears and releases something sinister during the nine-day funeral ritual.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Filipino",
+                    "Horror Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Judy Ann Santos",
+                    "Lorna Tolentino",
+                    "Chanda Romero"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/74811c03-7708-4cc7-9bfe-258b053dd61c",
@@ -179,14 +178,14 @@
                 "duration": "1h 45m",
                 "description": "When her daughter is severely injured, a desperate mother makes a deal with a demon to save her — but the price will have to be paid in blood.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Indonesian",
+                    "Horror Movies",
+                    "Thriller Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Taskya Namya",
+                    "Wafda Saifan",
+                    "Arla Ailani"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/b306a10a-79bf-42cd-94b2-2b1fd486dd61",
@@ -200,14 +199,14 @@
                 "duration": "2h 30m",
                 "description": "A mysterious stranger journeys to a remote town controlled by a callous crime lord, with one violent mission — restoring justice to its people.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Indian",
+                    "Hindi-Language Movies",
+                    "Bollywood Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Sunny Deol",
+                    "Randeep Hooda",
+                    "Vineet Kumar Singh"
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
@@ -220,7 +219,7 @@
                 "name": "Bet",
                 "title": "Bet",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "10 Episodes",
                 "description": "At a private school where gambling determines social status, a skillful new student with a mysterious past is shaking things up — and betting on revenge.",
                 "genre": [
                     "TV Dramas",
@@ -242,7 +241,7 @@
                 "name": "Tastefully Yours",
                 "title": "Tastefully Yours",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "10 Episodes (Limited Series)",
                 "description": "Driven to claim top culinary honors, an arrogant heir meets a low-profile but stubborn chef whose recipes astonish him — sparking an unlikely romance.",
                 "genre": [
                     "Romantic TV Dramas",
@@ -264,7 +263,7 @@
                 "name": "Our Unwritten Seoul",
                 "title": "Our Unwritten Seoul",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "12 Episodes (Limited Series)",
                 "description": "Twin sisters, whose similarities end with their looks, swap identities amid personal struggles — embarking on a journey to rediscover love and life.",
                 "genre": [
                     "TV Dramas",
@@ -284,7 +283,7 @@
                 "name": "Oh My Ghost Clients",
                 "title": "Oh My Ghost Clients",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "10 Episodes",
                 "description": "A near-fatal accident leaves aimless labor attorney with the ability to see ghosts and a deal to take on their supernatural cases to survive.",
                 "genre": [
                     "TV Dramas",
@@ -305,7 +304,7 @@
                 "name": "Incognito",
                 "title": "Incognito",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "128 Episodes",
                 "description": "In search of redemption, a crew of misfits joins a private military company on a series of deadly missions against the criminal underworld.",
                 "genre": [
                     "Filipino",
@@ -326,7 +325,7 @@
                 "name": "Sara - Woman in the Shadows",
                 "title": "Sara - Woman in the Shadows",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "6 Episodes",
                 "description": "The suspicious death of her son pushes a former secret agent back into action, investigating a series of crimes that grows increasingly sinister.",
                 "genre": [
                     "TV Dramas",
@@ -347,7 +346,7 @@
                 "name": "Mad Unicorn",
                 "title": "Mad Unicorn",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "7 Episodes (Limited Series)",
                 "description": "Hoping to escape poverty, an aspiring entrepreneur comes up with a brilliant idea for a courier service that might just make him rich. But at what cost?",
                 "genre": [
                     "TV Dramas",
@@ -367,7 +366,7 @@
                 "name": "The Haunted Palace",
                 "title": "The Haunted Palace",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "16 Episodes",
                 "description": "Born with shamanic powers that she refuses to accept, a young woman confronts her gift to rid the Joseon palace of evil spirits and save her first love.",
                 "genre": [
                     "Romantic TV Dramas",
@@ -388,7 +387,7 @@
                 "name": "American Manhunt: Osama bin Laden",
                 "title": "American Manhunt: Osama bin Laden",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "3 Episodes",
                 "description": "From Ground Zero to the mountains of Pakistan, this thrilling documentary series explores the hunt for Osama bin Laden in the decade following 9/11.",
                 "genre": [
                     "Documentary Series",
@@ -404,7 +403,7 @@
                 "name": "Youth Glory",
                 "title": "Youth Glory",
                 "year": "2025",
-                "duration": "2h 00m",
+                "duration": "30 Episodes",
                 "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
                 "genre": [
                     "Romantic TV Dramas",
