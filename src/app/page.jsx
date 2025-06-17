@@ -2,14 +2,24 @@
 import Image from "next/image";
 import Logo from '../../public/img/brand/netflix-logo.svg';
 import Top10Logo from '../../public/img/top-10/Top10Badge.svg';
-import { FaAngleRight } from "react-icons/fa6";
-import { useState, useMemo, useEffect } from "react";
+import { FaAngleRight, FaChevronLeft, FaChevronRight  } from "react-icons/fa6";
+import { useState, useMemo, useEffect, useRef } from "react";
 
 import countries from "./api/countries.json"
 import entertainments from "./api/entertainments.json"
 import shows from "./api/shows.json"
 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+
 export default function Home() {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [isBeginning, setIsBeginning] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
+
   // State to track selected country and entertainment
   const [selectedCountry, setSelectedCountry] = useState(countries[0].value);
   const [selectedEntertainment, setSelectedEntertainment] = useState(entertainments[0].value);
@@ -45,6 +55,13 @@ export default function Home() {
       default:
         return `${selectedCountry} Top 10 ${selectedEntertainmentName}`;
     }
+  };
+
+  const handleSwiper = (swiper) => {
+    swiper.on("slideChange", () => {
+      setIsBeginning(swiper.isBeginning);
+      setIsEnd(swiper.isEnd);
+    });
   };
 
   return (
@@ -121,14 +138,72 @@ export default function Home() {
           </div>
           <div className="top-10-cards">
             <div className="top-10-cards-container">
-              {data?.map((data) => (
-                <div key={data.id}>{data.name}</div>
-              ))}
+              {/* Custom buttons */}
+              <div className="flex justify-between mb-2">
+                <button
+                  ref={prevRef}
+                  disabled={isBeginning}
+                  className={`p-2 rounded-full ${
+                    isBeginning
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      : "bg-black text-white hover:bg-gray-800"
+                  }`}
+                >
+                  <FaChevronLeft />
+                </button>
+                <button
+                  ref={nextRef}
+                  disabled={isEnd}
+                  className={`p-2 rounded-full ${
+                    isEnd
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      : "bg-black text-white hover:bg-gray-800"
+                  }`}
+                >
+                  <FaChevronRight />
+                </button>
+              </div>
+              <Swiper
+                modules={[Navigation]}
+                spaceBetween={16}
+                slidesPerView={2}
+                onSwiper={handleSwiper}
+                navigation={{
+                  prevEl: prevRef.current,
+                  nextEl: nextRef.current,
+                }}
+                onBeforeInit={(swiper) => {
+                  swiper.params.navigation.prevEl = prevRef.current;
+                  swiper.params.navigation.nextEl = nextRef.current;
+                }}
+                breakpoints={{
+                  640: { slidesPerView: 3 },
+                  768: { slidesPerView: 4 },
+                  1024: { slidesPerView: 5 },
+                }}
+                className="group"
+              >
+                {data.map((item) => (
+                  <SwiperSlide key={item.id}>
+                    <div className="relative cursor-pointer">
+                      <div
+                          className="h-[350px] bg-cover bg-center shadow-md"
+                          style={{
+                            backgroundImage: `url(${item.imgCard})`,
+                          }}
+                        >
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
           </div>
         </section>
       </main>
-      <footer className=""></footer>
+      <footer className="text-white">
+         © {new Date().getFullYear()} Netflix Clone. All rights reserved.
+      </footer>
     </div>
   );
 }

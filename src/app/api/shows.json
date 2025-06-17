@@ -1,6 +1,6 @@
 {
-    "version": "release-v1.8",
-    "updated": "2025-06-16",
+    "version": "release-v1.9",
+    "updated": "2025-06-17",
     "entertainment": {
         "localMovies": [
             {
@@ -22,7 +22,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/b9e9da67-098a-4387-b01e-0efe525d684f",
-                "link": "https://www.netflix.com/watch/81665878"
+                "link": "https://www.netflix.com/watch/81665878",
+                "imgCard": "/img/top-10/local/movies/card/1.webp",
+                "imgModal": "/img/top-10/local/movies/modal/1.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/1.webp"
             },
             {
                 "id": 2,
@@ -43,7 +46,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/d5e368f4-c047-41d9-91e0-ede00f1d4e4d",
-                "link": "https://www.netflix.com/watch/81774713"
+                "link": "https://www.netflix.com/watch/81774713",
+                "imgCard": "/img/top-10/local/movies/card/2.jpg",
+                "imgModal": "/img/top-10/local/movies/modal/2.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/2.webp"
             },
             {
                 "id": 3,
@@ -64,7 +70,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/2696bafd-e096-4685-853b-3e1e9ecd74e9",
-                "link": "https://www.netflix.com/watch/82023328"
+                "link": "https://www.netflix.com/watch/82023328",
+                "imgCard": "/img/top-10/local/movies/card/3.webp",
+                "imgModal": "/img/top-10/local/movies/modal/3.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/3.webp"
             },
             {
                 "id": 4,
@@ -85,7 +94,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/b7847762-7f8b-45b6-889b-ba5a00e0e9ee",
-                "link": "https://www.netflix.com/watch/81745661"
+                "link": "https://www.netflix.com/watch/81745661",
+                "imgCard": "/img/top-10/local/movies/card/4.jpg",
+                "imgModal": "/img/top-10/local/movies/modal/4.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/4.webp"
             },
             {
                 "id": 5,
@@ -106,7 +118,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/b1a12640-2c68-4e94-afe8-7ca3b999fbaa",
-                "link": "https://www.netflix.com/watch/81783748"
+                "link": "https://www.netflix.com/watch/81783748",
+                "imgCard": "/img/top-10/local/movies/card/5.webp",
+                "imgModal": "/img/top-10/local/movies/modal/5.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/5.webp"
             },
             {
                 "id": 6,
@@ -127,7 +142,10 @@
                 ],
                 "rating": "7+",
                 "sourceBlob": "blob:https://www.netflix.com/040c444e-f888-42b4-b0fc-92d8cb2280c0",
-                "link": "https://www.netflix.com/watch/81776760"
+                "link": "https://www.netflix.com/watch/81776760",
+                "imgCard": "/img/top-10/local/movies/card/6.webp",
+                "imgModal": "/img/top-10/local/movies/modal/6.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/6.webp"
             },
             {
                 "id": 7,
@@ -148,7 +166,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/e11f26eb-8d29-467f-86e5-03997f89b762",
-                "link": "https://www.netflix.com/watch/70262639"
+                "link": "https://www.netflix.com/watch/70262639",
+                "imgCard": "/img/top-10/local/movies/card/7.webp",
+                "imgModal": "/img/top-10/local/movies/modal/7.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/7.webp"
             },
             {
                 "id": 8,
@@ -168,7 +189,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/74811c03-7708-4cc7-9bfe-258b053dd61c",
-                "link": "https://www.netflix.com/watch/82020763"
+                "link": "https://www.netflix.com/watch/82020763",
+                "imgCard": "/img/top-10/local/movies/card/8.webp",
+                "imgModal": "/img/top-10/local/movies/modal/8.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/8.webp"
             },
             {
                 "id": 9,
@@ -189,7 +213,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/b306a10a-79bf-42cd-94b2-2b1fd486dd61",
-                "link": "https://www.netflix.com/watch/82027346"
+                "link": "https://www.netflix.com/watch/82027346",
+                "imgCard": "/img/top-10/local/movies/card/9.webp",
+                "imgModal": "/img/top-10/local/movies/modal/9.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/9.webp"
             },
             {
                 "id": 10,
@@ -210,7 +237,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
-                "link": "https://www.netflix.com/watch/82034833"
+                "link": "https://www.netflix.com/watch/82034833",
+                "imgCard": "/img/top-10/local/movies/card/10.webp",
+                "imgModal": "/img/top-10/local/movies/modal/10.webp",
+                "imgModalTitle": "/img/top-10/local/movies/modal/title/10.webp"
             }
         ],
         "localShows": [
@@ -234,7 +264,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/3ed0170e-3c99-4fdd-be0a-789dd974a332",
-                "link": "https://www.netflix.com/watch/81729868"
+                "link": "https://www.netflix.com/watch/81729868",
+                "imgCard": "/img/top-10/local/series/card/1.jpg",
+                "imgModal": "/img/top-10/local/series/modal/1.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/1.webp"
             },
             {
                 "id": 2,
@@ -256,7 +289,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/ddf72c66-2bdc-4759-af3a-1566186a125c",
-                "link": "https://www.netflix.com/watch/81971174"
+                "link": "https://www.netflix.com/watch/81971174",
+                "imgCard": "/img/top-10/local/series/card/2.jpg",
+                "imgModal": "/img/top-10/local/series/modal/2.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/2.webp"
             },
             {
                 "id": 3,
@@ -276,7 +312,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/cde2da15-f6d7-4c26-a8cd-cd2646e97206",
-                "link": "https://www.netflix.com/watch/82024838"
+                "link": "https://www.netflix.com/watch/82024838",
+                "imgCard": "/img/top-10/local/series/card/3.jpg",
+                "imgModal": "/img/top-10/local/series/modal/3.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/3.webp"
             },
             {
                 "id": 4,
@@ -297,7 +336,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/000cf785-9b4a-44a5-8261-c7004880a699",
-                "link": "https://www.netflix.com/watch/82061115"
+                "link": "https://www.netflix.com/watch/82061115",
+                "imgCard": "/img/top-10/local/series/card/4.webp",
+                "imgModal": "/img/top-10/local/series/modal/4.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/4.webp"
             },
             {
                 "id": 5,
@@ -318,7 +360,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/5a96f25e-a657-4b09-9f24-129cda0a0bbc",
-                "link": "https://www.netflix.com/watch/81914623"
+                "link": "https://www.netflix.com/watch/81914623",
+                "imgCard": "/img/top-10/local/series/card/5.webp",
+                "imgModal": "/img/top-10/local/series/modal/5.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/5.webp"
             },
             {
                 "id": 6,
@@ -339,7 +384,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/d84c9065-2112-4bc2-98e8-8b0c2a29b0f4",
-                "link": "https://www.netflix.com/watch/81515638"
+                "link": "https://www.netflix.com/watch/81515638",
+                "imgCard": "/img/top-10/local/series/card/6.jpg",
+                "imgModal": "/img/top-10/local/series/modal/6.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/6.webp"
             },
             {
                 "id": 7,
@@ -359,7 +407,10 @@
                 ],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/4fff9916-d4a9-4cf2-9bf4-8e16e10e2d16",
-                "link": "https://www.netflix.com/watch/81595549"
+                "link": "https://www.netflix.com/watch/81595549",
+                "imgCard": "/img/top-10/local/series/card/7.jpg",
+                "imgModal": "/img/top-10/local/series/modal/7.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/7.webp"
             },
             {
                 "id": 8,
@@ -380,7 +431,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/1511e910-cb8b-4746-89fa-43457d37f49e",
-                "link": "https://www.netflix.com/watch/82031220"
+                "link": "https://www.netflix.com/watch/82031220",
+                "imgCard": "/img/top-10/local/series/card/8.webp",
+                "imgModal": "/img/top-10/local/series/modal/8.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/8.webp"
             },
             {
                 "id": 9,
@@ -396,7 +450,10 @@
                 "cast": [],
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/1b0fced1-db9e-4f65-94da-34518ec00091",
-                "link": "https://www.netflix.com/watch/81700898"
+                "link": "https://www.netflix.com/watch/81700898",
+                "imgCard": "/img/top-10/local/series/card/9.jpg",
+                "imgModal": "/img/top-10/local/series/modal/9.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/9.webp"
             },
             {
                 "id": 10,
@@ -417,7 +474,10 @@
                 ],
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/955ae80d-900e-4607-a815-dc285fbe2dd1",
-                "link": "https://www.netflix.com/watch/83073203"
+                "link": "https://www.netflix.com/watch/83073203",
+                "imgCard": "/img/top-10/local/series/card/10.webp",
+                "imgModal": "/img/top-10/local/series/modal/10.webp",
+                "imgModalTitle": "/img/top-10/local/series/modal/title/10.webp"
             }
         ],
         "globalMovies": [
