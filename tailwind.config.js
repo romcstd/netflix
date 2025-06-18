@@ -23,11 +23,14 @@ module.exports = {
           sm: '1rem',
           md: '1rem',
           lg: '2rem',
-          xl: '1rem',
-          '2xl': '1rem',
+          xl: '4rem',
+          '2xl': '4rem',
         },
       },
       screens: {
+        'xs': '480px', 
+        // => @media (min-width: 480px) { ... }
+
         'sm': '600px',
         // => @media (min-width: 640px) { ... }
   
@@ -40,7 +43,7 @@ module.exports = {
         'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
   
-        '2xl': '1280px',
+        '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
     },
