@@ -12,7 +12,8 @@ body {
   }
 
   .bg-header {
-    background: linear-gradient(180deg,
+    background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.7889) 8.333%,
       rgba(0, 0, 0, 0.7556) 16.67%,
@@ -31,7 +32,8 @@ body {
 
   .border-line {
     height: 4px;
-    background: linear-gradient(to right,
+    background: linear-gradient(
+      to right,
       rgba(33, 13, 22, 1) 16%,
       rgba(184, 40, 105, 1),
       rgba(229, 9, 20, 1),
@@ -39,10 +41,13 @@ body {
       rgba(33, 13, 22, 1) 84%
     );
   }
+
+  .top-10-category-select > option {
+    color: black;
+  }
 }
 
 @layer components {
-
   .header {
     @apply absolute z-30 w-full py-6 px-12;
   }
@@ -62,17 +67,17 @@ body {
   .home-banner-content {
     @apply relative z-20 w-full h-full flex justify-center items-center;
   }
-  
+
   .home-banner-content-wrapper {
     @apply text-center my-auto max-w-[36.75rem] text-white p-4 md:p-0;
   }
 
   .home-banner-content-headline {
-    @apply text-[1.5rem] sm:text-[2.5rem] md:text-[3.5rem] font-black mb-8;
+    @apply text-2xl sm:text-3xl md:text-4xl font-black mb-8;
   }
 
   .home-banner-content-subheadline {
-    @apply text-base md:text-[1.5rem] font-bold mb-8;
+    @apply text-base md:text-2xl font-bold mb-8;
   }
 
   .home-banner-content-description {
@@ -106,7 +111,7 @@ body {
   .top-10-category-container {
     @apply container mx-auto flex items-center justify-start;
   }
-  
+
   .top-10-category-select-wrapper {
     @apply relative mr-2;
   }
@@ -128,7 +133,7 @@ body {
   }
 
   .top-10-headline {
-    @apply text-[1.5rem] sm:text-[2.5rem] md:text-[3.5rem] font-black uppercase mb-8;
+    @apply text-white text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-8;
   }
 
   .top-10-headline-container {
@@ -142,20 +147,7 @@ body {
   .top-10-cards-container {
     @apply container mx-auto;
   }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    flex-shrink: 0;
-    min-width: 0;
-    height: auto;
-  }
 }
-
-
 
 @layer base {
   :root {
@@ -211,11 +203,6 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
-
-
-
-@layer base {
   * {
     @apply border-border;
   }

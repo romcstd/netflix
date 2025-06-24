@@ -10,14 +10,14 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				primary: [
-					'Poppins"',
+					'Poppins',
 					'Helvetica Neue',
 					'Helvetica',
 					'Arial',
 					'sans-serif'
 				],
 				sans: [
-					'Poppins"',
+					'Poppins',
 					'Helvetica Neue',
 					'Helvetica',
 					'Arial',
