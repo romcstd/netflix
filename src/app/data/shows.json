@@ -22,7 +22,7 @@
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/b9e9da67-098a-4387-b01e-0efe525d684f",
                 "link": "https://www.netflix.com/watch/81665878",
-                "imgCard": "/img/top-10/local/movies/card/1.webp",
+                "imgCard": "/img/top-10/local/movies/card/1.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/1.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/1.webp"
             },
@@ -70,7 +70,7 @@
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/2696bafd-e096-4685-853b-3e1e9ecd74e9",
                 "link": "https://www.netflix.com/watch/82023328",
-                "imgCard": "/img/top-10/local/movies/card/3.webp",
+                "imgCard": "/img/top-10/local/movies/card/3.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/3.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/3.webp"
             },
@@ -118,7 +118,7 @@
                 "rating": "13+",
                 "sourceBlob": "blob:https://www.netflix.com/b1a12640-2c68-4e94-afe8-7ca3b999fbaa",
                 "link": "https://www.netflix.com/watch/81783748",
-                "imgCard": "/img/top-10/local/movies/card/5.webp",
+                "imgCard": "/img/top-10/local/movies/card/5.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/5.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/5.webp"
             },
@@ -142,7 +142,7 @@
                 "rating": "7+",
                 "sourceBlob": "blob:https://www.netflix.com/040c444e-f888-42b4-b0fc-92d8cb2280c0",
                 "link": "https://www.netflix.com/watch/81776760",
-                "imgCard": "/img/top-10/local/movies/card/6.webp",
+                "imgCard": "/img/top-10/local/movies/card/6.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/6.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/6.webp"
             },
@@ -166,7 +166,7 @@
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/e11f26eb-8d29-467f-86e5-03997f89b762",
                 "link": "https://www.netflix.com/watch/70262639",
-                "imgCard": "/img/top-10/local/movies/card/7.webp",
+                "imgCard": "/img/top-10/local/movies/card/7.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/7.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/7.webp"
             },
@@ -189,7 +189,7 @@
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/74811c03-7708-4cc7-9bfe-258b053dd61c",
                 "link": "https://www.netflix.com/watch/82020763",
-                "imgCard": "/img/top-10/local/movies/card/8.webp",
+                "imgCard": "/img/top-10/local/movies/card/8.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/8.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/8.webp"
             },
@@ -213,7 +213,7 @@
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/b306a10a-79bf-42cd-94b2-2b1fd486dd61",
                 "link": "https://www.netflix.com/watch/82027346",
-                "imgCard": "/img/top-10/local/movies/card/9.webp",
+                "imgCard": "/img/top-10/local/movies/card/9.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/9.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/9.webp"
             },
@@ -237,7 +237,7 @@
                 "rating": "16+",
                 "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
                 "link": "https://www.netflix.com/watch/82034833",
-                "imgCard": "/img/top-10/local/movies/card/10.webp",
+                "imgCard": "/img/top-10/local/movies/card/10.jpg",
                 "imgModal": "/img/top-10/local/movies/modal/10.webp",
                 "imgModalTitle": "/img/top-10/local/movies/modal/title/10.webp"
             }

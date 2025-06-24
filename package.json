@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^0.523.0",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
-    "swiper": "^11.2.8"
+    "sharp": "^0.34.2",
+    "swiper": "^11.2.8",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
