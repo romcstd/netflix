@@ -1,12 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { FaChevronLeft, FaChevronRight, FaChevronDown } from "react-icons/fa6";
-import { useState, useMemo, useEffect, useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
+import { FaChevronDown } from "react-icons/fa6";
+import { useState, useMemo, useEffect } from "react";
+import { Card, CardContent } from "@/components/ui/card"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
 import Spinner from "./Spinner";
 
 // JSON data imports
@@ -30,16 +34,15 @@ type Entertainment = {
 
 type ShowItem = {
     id: number;
+    name: string;
     imgCard: string;
+    imgCardLogo: string;
+    imgModal: string;
+    imgModalTitle: string;
 };
 
-export default function Top10Swiper() {
-    const prevRef = useRef<HTMLButtonElement>(null);
-    const nextRef = useRef<HTMLButtonElement>(null);
-    const [isBeginning, setIsBeginning] = useState(true);
-    const [isEnd, setIsEnd] = useState(false);
+export default function Top10Carousel() {
     const [isLoading, setIsLoading] = useState(true);
-
     const [selectedCountry, setSelectedCountry] = useState<string>(countries[0].value);
     const [selectedEntertainment, setSelectedEntertainment] = useState<string>(entertainments[0].value);
 
@@ -68,7 +71,7 @@ export default function Top10Swiper() {
 
     useEffect(() => {
         // Simulate fetch delay or data prep
-        const timeout = setTimeout(() => setIsLoading(false), 1000);
+        const timeout = setTimeout(() => setIsLoading(false), 300);
         return () => clearTimeout(timeout);
     }, []);
 
@@ -80,14 +83,6 @@ export default function Top10Swiper() {
             default:
                 return <>{selectedCountry} Top 10 {selectedEntertainmentName}</>;
         }
-    };
-
-    // Sync Swiper state to navigation button enable/disable
-    const handleSwiper = (swiper: any) => {
-        swiper.on("slideChange", () => {
-            setIsBeginning(swiper.isBeginning);
-            setIsEnd(swiper.isEnd);
-        });
     };
 
     return (
@@ -137,66 +132,44 @@ export default function Top10Swiper() {
             </div>
 
             {/* Swiper Navigation Buttons */}
-            <div className="top-10-cards">
-                <div className="top-10-cards-container">
-                    <div className="flex justify-between mb-2">
-                        <button
-                            ref={prevRef}
-                            disabled={isBeginning}
-                            className={`p-2 rounded-full ${isBeginning ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-black text-white hover:bg-gray-800"
-                                }`}
-                        >
-                            <FaChevronLeft />
-                        </button>
-                        <button
-                            ref={nextRef}
-                            disabled={isEnd}
-                            className={`p-2 rounded-full ${isEnd ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-black text-white hover:bg-gray-800"
-                                }`}
-                        >
-                            <FaChevronRight />
-                        </button>
-                    </div>
+            <div className="relative">
+                <div className="container mx-auto">
+                    {isLoading ? (
+                        <Spinner />
+                    ) : (
+                        <Carousel opts={{ align: "start", }} className="top-10-carousel w-full relative">
+                            <CarouselContent className="top-10-carousel-content relative">
+                                {data.map((item: ShowItem, index) => (
+                                    <CarouselItem
+                                        key={item.id}
+                                        className="top-10-carousel-item group cursor-pointer relative basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
+                                    >
+                                        <Card className="top-10-carousel-item-card w-full h-full bg-cover bg-center border-none rounded-md shadow-xl transition-transform duration-300 group-hover:scale-105">
+                                            <Image
+                                                src={item.imgCard}
+                                                alt={item.name}
+                                                fill
+                                                className="object-cover"
+                                            />
+                                            <CardContent className="top-10-carousel-item-card-content relative aspect-[2/3] overflow-hidden">
+                                                <div className="top-10-carousel-item-card-content-number absolute left-2 top-2 z-10 text-8xl font-bold text-black/40 leading-none drop-shadow-md pointer-events-none">
+                                                    <span className="relative">
+                                                        {index + 1}
+                                                    </span>
+                                                </div>
+                                                <div className="top-10-carousel-item-card-content-logo absolute bottom-8 left-0 right-0 flex justify-center z-10">
+                                                    <Image src={item.imgCardLogo} alt={item.name} className="object-contain" width={240} height={153} />
+                                                </div>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+                                ))}
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                    )}
                 </div>
-                {isLoading ? (
-                    <Spinner />
-                ) : (
-                    <div className="py-4 px-16">
-                        <Swiper
-                            modules={[Navigation]}
-                            spaceBetween={16}
-                            slidesPerView={2}
-                            onSwiper={handleSwiper}
-                            navigation={{
-                                prevEl: prevRef.current,
-                                nextEl: nextRef.current,
-                            }}
-                            onBeforeInit={(swiper) => {
-                                if (swiper.params.navigation && typeof swiper.params.navigation !== 'boolean') {
-                                    swiper.params.navigation.prevEl = prevRef.current;
-                                    swiper.params.navigation.nextEl = nextRef.current;
-                                }
-                            }}
-                            breakpoints={{
-                                640: { slidesPerView: 3 },
-                                768: { slidesPerView: 4 },
-                                1024: { slidesPerView: 5 },
-                            }}
-                            className="group"
-                        >
-                            {data.map((item: ShowItem) => (
-                                <SwiperSlide key={item.id}>
-                                    <div className="relative cursor-pointer">
-                                        <div
-                                            className="h-[350px] bg-cover bg-center shadow-md"
-                                            style={{ backgroundImage: `url(${item.imgCard})` }}
-                                        />
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
-                    </div>
-                )}
             </div>
         </section>
     );

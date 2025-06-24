@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import "@/app/styles/globals.css"
+import "@/styles/globals.css"
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" app-version="release-v2.0">
+    <html lang="en" app-version="release-v2.1">
       <body className={`${inter.variable} antialiased`}>
         {children}
       </body>

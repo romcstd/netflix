@@ -1,6 +1,6 @@
 export default function HomeBanner() {
   return (
-    <section className="home-banner h-screen">
+    <section className="home-banner">
       <div className="home-banner-content">
         <div className="home-banner-content-wrapper">
           <div className="home-banner-content-headline">
