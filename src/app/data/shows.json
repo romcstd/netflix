@@ -1,5 +1,5 @@
 {
-    "updated": "2025-06-17",
+    "updated": "2025-06-26",
     "entertainment": {
         "localMovies": [
             {
@@ -20,11 +20,8 @@
                     "Ving Rhames"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/b9e9da67-098a-4387-b01e-0efe525d684f",
                 "link": "https://www.netflix.com/watch/81665878",
-                "imgCard": "/img/top-10/local/movies/card/1.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/1.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/1.webp"
+                "imgCard": "/img/top-10/local/movies/card/1.jpg"
             },
             {
                 "id": 2,
@@ -44,11 +41,8 @@
                     "Teyana Taylor"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/d5e368f4-c047-41d9-91e0-ede00f1d4e4d",
                 "link": "https://www.netflix.com/watch/81774713",
-                "imgCard": "/img/top-10/local/movies/card/2.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/2.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/2.webp"
+                "imgCard": "/img/top-10/local/movies/card/2.jpg"
             },
             {
                 "id": 3,
@@ -68,11 +62,8 @@
                     "Aga Muhlach"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/2696bafd-e096-4685-853b-3e1e9ecd74e9",
                 "link": "https://www.netflix.com/watch/82023328",
-                "imgCard": "/img/top-10/local/movies/card/3.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/3.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/3.webp"
+                "imgCard": "/img/top-10/local/movies/card/3.jpg"
             },
             {
                 "id": 4,
@@ -92,11 +83,8 @@
                     "Foued Nabba"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/b7847762-7f8b-45b6-889b-ba5a00e0e9ee",
                 "link": "https://www.netflix.com/watch/81745661",
-                "imgCard": "/img/top-10/local/movies/card/4.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/4.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/4.webp"
+                "imgCard": "/img/top-10/local/movies/card/4.jpg"
             },
             {
                 "id": 5,
@@ -116,35 +104,29 @@
                     "Sam Milby"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/b1a12640-2c68-4e94-afe8-7ca3b999fbaa",
                 "link": "https://www.netflix.com/watch/81783748",
-                "imgCard": "/img/top-10/local/movies/card/5.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/5.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/5.webp"
+                "imgCard": "/img/top-10/local/movies/card/5.jpg"
             },
             {
                 "id": 6,
-                "name": "Paddington in Peru",
-                "title": "Paddington in Peru",
-                "year": "2024",
-                "duration": "1h 46m",
-                "description": "A marmalade-loving bear embarks on an adventure to his homeland on a quest to find his Aunt Lucy – and a mysterious secret city.",
+                "name": "John Wick: Chapter 4",
+                "title": "John Wick: Chapter 4",
+                "year": "2023",
+                "duration": "2h 49m",
+                "description": "He's a tormented man with one wish: freedom. For assassin John Wick, that means destroying a group of brutal killers — and he's ready to die doing it.",
                 "genre": [
-                    "Family Movies",
-                    "Kids & Family Movies",
-                    "British"
+                    "Crime Movies",
+                    "Action & Adventure Movies",
+                    "US Movies"
                 ],
                 "cast": [
-                    "Ben Whishaw",
-                    "Hugh Bonneville",
-                    "Emily Mortimer"
+                    "Keanu Reeves",
+                    "Laurence Fishburne",
+                    "Donnie Yen"
                 ],
-                "rating": "7+",
-                "sourceBlob": "blob:https://www.netflix.com/040c444e-f888-42b4-b0fc-92d8cb2280c0",
-                "link": "https://www.netflix.com/watch/81776760",
-                "imgCard": "/img/top-10/local/movies/card/6.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/6.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/6.webp"
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81489835",
+                "imgCard": "/img/top-10/local/movies/card/6.jpg"
             },
             {
                 "id": 7,
@@ -164,11 +146,8 @@
                     "Daniella Kertesz"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/e11f26eb-8d29-467f-86e5-03997f89b762",
                 "link": "https://www.netflix.com/watch/70262639",
-                "imgCard": "/img/top-10/local/movies/card/7.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/7.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/7.webp"
+                "imgCard": "/img/top-10/local/movies/card/7.jpg"
             },
             {
                 "id": 8,
@@ -187,35 +166,29 @@
                     "Chanda Romero"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/74811c03-7708-4cc7-9bfe-258b053dd61c",
                 "link": "https://www.netflix.com/watch/82020763",
-                "imgCard": "/img/top-10/local/movies/card/8.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/8.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/8.webp"
+                "imgCard": "/img/top-10/local/movies/card/8.jpg"
             },
             {
                 "id": 9,
-                "name": "The Demon's Bride",
-                "title": "The Demon's Bride",
-                "year": "2025",
-                "duration": "1h 45m",
-                "description": "When her daughter is severely injured, a desperate mother makes a deal with a demon to save her — but the price will have to be paid in blood.",
+                "name": "My Future You",
+                "title": "My Future You",
+                "year": "2024",
+                "duration": "1h 49m",
+                "description": "Lex meets Karen on a dating app — but he's in 2009 and she's in 2024. Through the time gap, he helps change her past, while reshaping his future.",
                 "genre": [
-                    "Indonesian",
-                    "Horror Movies",
-                    "Thriller Movies"
+                    "Filipino",
+                    "Drama Movies",
+                    "Romantic Movies"
                 ],
                 "cast": [
-                    "Taskya Namya",
-                    "Wafda Saifan",
-                    "Arla Ailani"
+                    "Francine Diaz",
+                    "Seth Fedelin",
+                    "Almira Muhlach"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/b306a10a-79bf-42cd-94b2-2b1fd486dd61",
                 "link": "https://www.netflix.com/watch/82027346",
-                "imgCard": "/img/top-10/local/movies/card/9.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/9.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/9.webp"
+                "imgCard": "/img/top-10/local/movies/card/9.jpg"
             },
             {
                 "id": 10,
@@ -235,11 +208,8 @@
                     "Vineet Kumar Singh"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
                 "link": "https://www.netflix.com/watch/82034833",
-                "imgCard": "/img/top-10/local/movies/card/10.jpg",
-                "imgModal": "/img/top-10/local/movies/modal/10.webp",
-                "imgModalTitle": "/img/top-10/local/movies/modal/title/10.webp"
+                "imgCard": "/img/top-10/local/movies/card/10.jpg"
             }
         ],
         "localShows": [
@@ -262,11 +232,8 @@
                     "Clara Alexandrova"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/3ed0170e-3c99-4fdd-be0a-789dd974a332",
                 "link": "https://www.netflix.com/watch/81729868",
-                "imgCard": "/img/top-10/local/series/card/1.jpg",
-                "imgModal": "/img/top-10/local/series/modal/1.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/1.webp"
+                "imgCard": "/img/top-10/local/series/card/1.jpg"
             },
             {
                 "id": 2,
@@ -287,11 +254,8 @@
                     "more"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/ddf72c66-2bdc-4759-af3a-1566186a125c",
                 "link": "https://www.netflix.com/watch/81971174",
-                "imgCard": "/img/top-10/local/series/card/2.jpg",
-                "imgModal": "/img/top-10/local/series/modal/2.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/2.webp"
+                "imgCard": "/img/top-10/local/series/card/2.jpg"
             },
             {
                 "id": 3,
@@ -310,11 +274,8 @@
                     "Ryu Kyung-soo"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/cde2da15-f6d7-4c26-a8cd-cd2646e97206",
                 "link": "https://www.netflix.com/watch/82024838",
-                "imgCard": "/img/top-10/local/series/card/3.jpg",
-                "imgModal": "/img/top-10/local/series/modal/3.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/3.webp"
+                "imgCard": "/img/top-10/local/series/card/3.jpg"
             },
             {
                 "id": 4,
@@ -334,11 +295,8 @@
                     "Cha Hak-yeon"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/000cf785-9b4a-44a5-8261-c7004880a699",
                 "link": "https://www.netflix.com/watch/82061115",
-                "imgCard": "/img/top-10/local/series/card/4.webp",
-                "imgModal": "/img/top-10/local/series/modal/4.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/4.webp"
+                "imgCard": "/img/top-10/local/series/card/4.jpg"
             },
             {
                 "id": 5,
@@ -358,35 +316,29 @@
                     "Baron Geisler"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/5a96f25e-a657-4b09-9f24-129cda0a0bbc",
                 "link": "https://www.netflix.com/watch/81914623",
-                "imgCard": "/img/top-10/local/series/card/5.webp",
-                "imgModal": "/img/top-10/local/series/modal/5.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/5.webp"
+                "imgCard": "/img/top-10/local/series/card/5.jpg"
             },
             {
                 "id": 6,
-                "name": "Sara - Woman in the Shadows",
-                "title": "Sara - Woman in the Shadows",
+                "name": "Resident Playbook",
+                "title": "Resident Playbook",
                 "year": "2025",
-                "duration": "6 Episodes",
-                "description": "The suspicious death of her son pushes a former secret agent back into action, investigating a series of crimes that grows increasingly sinister.",
+                "duration": "10 Episodes",
+                "description": "Struggling with her finances, Oh Yi-young reluctantly returns to resident life — making blunder after blunder. Soon, she faces her first patient crisis.",
                 "genre": [
+                    "Medical TV Shows",
                     "TV Dramas",
-                    "Italian",
-                    "TV Shows Based on Books"
+                    "Korean"
                 ],
                 "cast": [
-                    "Teresa Saponangelo",
-                    "Claudia Gerini",
-                    "Flavio Furno"
+                    "Go Youn-jung",
+                    "Shin Si-a",
+                    "Kang You-seok"
                 ],
-                "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/d84c9065-2112-4bc2-98e8-8b0c2a29b0f4",
-                "link": "https://www.netflix.com/watch/81515638",
-                "imgCard": "/img/top-10/local/series/card/6.jpg",
-                "imgModal": "/img/top-10/local/series/modal/6.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/6.webp"
+                "rating": "13+",
+                "link": "https://www.netflix.com/watch/81739042",
+                "imgCard": "/img/top-10/local/series/card/6.jpg"
             },
             {
                 "id": 7,
@@ -405,11 +357,8 @@
                     "Dr. Palang Rocksilp"
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/4fff9916-d4a9-4cf2-9bf4-8e16e10e2d16",
                 "link": "https://www.netflix.com/watch/81595549",
-                "imgCard": "/img/top-10/local/series/card/7.jpg",
-                "imgModal": "/img/top-10/local/series/modal/7.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/7.webp"
+                "imgCard": "/img/top-10/local/series/card/7.jpg"
             },
             {
                 "id": 8,
@@ -429,11 +378,8 @@
                     "Kim Ji-hun"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/1511e910-cb8b-4746-89fa-43457d37f49e",
                 "link": "https://www.netflix.com/watch/82031220",
-                "imgCard": "/img/top-10/local/series/card/8.webp",
-                "imgModal": "/img/top-10/local/series/modal/8.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/8.webp"
+                "imgCard": "/img/top-10/local/series/card/8.jpg"
             },
             {
                 "id": 9,
@@ -448,35 +394,29 @@
                 ],
                 "cast": [],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/1b0fced1-db9e-4f65-94da-34518ec00091",
                 "link": "https://www.netflix.com/watch/81700898",
-                "imgCard": "/img/top-10/local/series/card/9.jpg",
-                "imgModal": "/img/top-10/local/series/modal/9.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/9.webp"
+                "imgCard": "/img/top-10/local/series/card/9.jpg"
             },
             {
                 "id": 10,
-                "name": "Youth Glory",
-                "title": "Youth Glory",
+                "name": "Single Inferno Season 4",
+                "title": "Single Inferno Season 4",
                 "year": "2025",
-                "duration": "30 Episodes",
+                "duration": "10 Episodes",
                 "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
                 "genre": [
-                    "Romantic TV Dramas",
-                    "TV Dramas",
-                    "Mainland Chinese TV Shows"
+                    "Korean",
+                    "Competition Reality TV",
+                    "Reality TV"
                 ],
                 "cast": [
-                    "Song Weilong",
-                    "Bao Shangen",
-                    "Dai Luwa"
+                    "Hong Jin-kyung",
+                    "Lee Da-hee",
+                    "Kyuhyun"
                 ],
                 "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/955ae80d-900e-4607-a815-dc285fbe2dd1",
-                "link": "https://www.netflix.com/watch/83073203",
-                "imgCard": "/img/top-10/local/series/card/10.webp",
-                "imgModal": "/img/top-10/local/series/modal/10.webp",
-                "imgModalTitle": "/img/top-10/local/series/modal/title/10.webp"
+                "link": "https://www.netflix.com/watch/81436209",
+                "imgCard": "/img/top-10/local/series/card/10.jpg"
             }
         ],
         "globalMovies": [
@@ -498,31 +438,51 @@
                     ""
                 ],
                 "rating": "16+",
-                "sourceBlob": "blob:https://www.netflix.com/10c7c674-271d-41bc-a0d8-9bd8abbbb3b6",
                 "link": "https://www.netflix.com/watch/82034833"
             }
         ],
         "globalShows": [
              {
                 "id": 1,
-                "name": "Youth Glory",
-                "title": "Youth Glory",
+                "name": "The Waterfront",
+                "title": "The Waterfront",
                 "year": "2025",
-                "duration": "2h 00m",
-                "description": "Marrying out of need, a noble and a royal unite against a looming threat to the kingdom — but their desperate alliance might just turn into true romance.",
+                "duration": "8 Episodes",
+                "description": "Their fishing business is failing — and smuggling drugs is easy money. But when this wealthy family breaks bad, they'll find themselves in deadly waters.",
+                "genre": [
+                    "TV Dramas",
+                    "Crime TV Shows",
+                    "US TV Shows"
+                ],
+                "cast": [
+                    "Holt McCallany",
+                    "Melissa Benoist",
+                    "Jake Weary"
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81745063",
+                "imgCard": "/img/top-10/global/series/card/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "The Waterfront",
+                "title": "The Waterfront",
+                "year": "2025",
+                "duration": "3 Seasons",
+                "description": "They're in a new state. They're seeking a fresh start. But Ginny and Georgia find that wherever they go, there they are.",
                 "genre": [
                     "Romantic TV Dramas",
                     "TV Dramas",
-                    "Mainland Chinese TV Shows"
+                    "Teen TV Shows"
                 ],
                 "cast": [
-                    "Song Weilong",
-                    "Bao Shangen",
-                    "Dai Luwa"
+                    "Brianne Howey",
+                    "Antonia Gentry",
+                    "Diesel La Torraca"
                 ],
-                "rating": "13+",
-                "sourceBlob": "blob:https://www.netflix.com/955ae80d-900e-4607-a815-dc285fbe2dd1",
-                "link": "https://www.netflix.com/watch/83073203"
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81745063",
+                "imgCard": "/img/top-10/global/series/card/2.jpg"
             }
         ]
     }

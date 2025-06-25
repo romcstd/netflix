@@ -138,7 +138,7 @@ export default function Top10() {
                                         {index + 1}
                                     </div>
 
-                                    <Card className="relative w-full h-full border-none rounded-md overflow-hidden transition-transform duration-300 group-hover:scale-105 shadow-lg">
+                                    <Card className="relative w-full h-full bg-transparent border-none rounded-md overflow-hidden transition-transform duration-300 group-hover:scale-105 shadow-lg">
                                         {/* Poster Image */}
                                         <CardContent className="relative aspect-[2/3] w-full h-auto">
                                             <Image
