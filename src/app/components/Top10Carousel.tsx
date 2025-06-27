@@ -35,8 +35,7 @@ type ShowItem = {
     id: number;
     name: string;
     imgCard: string;
-    imgModal: string;
-    imgModalTitle: string;
+    imgCardLogo: string;
 };
 
 export default function Top10() {
@@ -153,7 +152,16 @@ export default function Top10() {
                                             />
                                         </CardContent>
                                         <CardFooter className="top-10-carousel-item-card-footer absolute bottom-0 left-0 right-0 flex justify-center z-10 w-full bg-gradient-to-t from-black/80 to-transparent">
-                                            <Image src="/img/top-10/local/movies/card/logo/1.png" alt={item.name} className="object-contain" width={240} height={153} />
+                                            <Image
+                                                src={
+                                                    item.imgCardLogo && item.imgCardLogo! != ""
+                                                        ? item.imgCardLogo
+                                                        : "/img/top-10/placeholder-logo.png"
+                                                }
+                                                alt={item.name}
+                                                className="object-contain"
+                                                width={240}
+                                                height={153} />
                                         </CardFooter>
                                     </Card>
                                 </CarouselItem>
