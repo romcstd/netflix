@@ -21,7 +21,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81665878",
-                "imgCard": "/img/top-10/local/movies/card/1.jpg"
+                "imgCard": "/img/top-10/local/movies/card/1.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/1.png"
             },
             {
                 "id": 2,
@@ -42,7 +43,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81774713",
-                "imgCard": "/img/top-10/local/movies/card/2.jpg"
+                "imgCard": "/img/top-10/local/movies/card/2.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/2.png"
             },
             {
                 "id": 3,
@@ -63,7 +65,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/82023328",
-                "imgCard": "/img/top-10/local/movies/card/3.jpg"
+                "imgCard": "/img/top-10/local/movies/card/3.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/3.png"
             },
             {
                 "id": 4,
@@ -84,7 +87,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81745661",
-                "imgCard": "/img/top-10/local/movies/card/4.jpg"
+                "imgCard": "/img/top-10/local/movies/card/4.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/4.png"
             },
             {
                 "id": 5,
@@ -105,7 +109,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81783748",
-                "imgCard": "/img/top-10/local/movies/card/5.jpg"
+                "imgCard": "/img/top-10/local/movies/card/5.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/5.png"
             },
             {
                 "id": 6,
@@ -126,7 +131,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81489835",
-                "imgCard": "/img/top-10/local/movies/card/6.jpg"
+                "imgCard": "/img/top-10/local/movies/card/6.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/6.png"
             },
             {
                 "id": 7,
@@ -147,7 +153,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/70262639",
-                "imgCard": "/img/top-10/local/movies/card/7.jpg"
+                "imgCard": "/img/top-10/local/movies/card/7.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/7.png"
             },
             {
                 "id": 8,
@@ -167,7 +174,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/82020763",
-                "imgCard": "/img/top-10/local/movies/card/8.jpg"
+                "imgCard": "/img/top-10/local/movies/card/8.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/8.png"
             },
             {
                 "id": 9,
@@ -188,7 +196,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/82027346",
-                "imgCard": "/img/top-10/local/movies/card/9.jpg"
+                "imgCard": "/img/top-10/local/movies/card/9.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/9.png"
             },
             {
                 "id": 10,
@@ -209,7 +218,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/82034833",
-                "imgCard": "/img/top-10/local/movies/card/10.jpg"
+                "imgCard": "/img/top-10/local/movies/card/10.jpg",
+                "imgCardLogo": "/img/top-10/local/movies/card/logo/10.png"
             }
         ],
         "localShows": [
@@ -233,7 +243,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81729868",
-                "imgCard": "/img/top-10/local/series/card/1.jpg"
+                "imgCard": "/img/top-10/local/series/card/1.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/1.png"
             },
             {
                 "id": 2,
@@ -255,7 +266,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81971174",
-                "imgCard": "/img/top-10/local/series/card/2.jpg"
+                "imgCard": "/img/top-10/local/series/card/2.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/2.png"
             },
             {
                 "id": 3,
@@ -275,7 +287,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/82024838",
-                "imgCard": "/img/top-10/local/series/card/3.jpg"
+                "imgCard": "/img/top-10/local/series/card/3.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/3.png"
             },
             {
                 "id": 4,
@@ -296,7 +309,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/82061115",
-                "imgCard": "/img/top-10/local/series/card/4.jpg"
+                "imgCard": "/img/top-10/local/series/card/4.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/4.png"
             },
             {
                 "id": 5,
@@ -317,7 +331,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81914623",
-                "imgCard": "/img/top-10/local/series/card/5.jpg"
+                "imgCard": "/img/top-10/local/series/card/5.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/5.png"
             },
             {
                 "id": 6,
@@ -338,7 +353,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81739042",
-                "imgCard": "/img/top-10/local/series/card/6.jpg"
+                "imgCard": "/img/top-10/local/series/card/6.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/6.png"
             },
             {
                 "id": 7,
@@ -358,7 +374,8 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81595549",
-                "imgCard": "/img/top-10/local/series/card/7.jpg"
+                "imgCard": "/img/top-10/local/series/card/7.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/7.png"
             },
             {
                 "id": 8,
@@ -379,7 +396,8 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/82031220",
-                "imgCard": "/img/top-10/local/series/card/8.jpg"
+                "imgCard": "/img/top-10/local/series/card/8.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/8.png"
             },
             {
                 "id": 9,
@@ -395,7 +413,8 @@
                 "cast": [],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81700898",
-                "imgCard": "/img/top-10/local/series/card/9.jpg"
+                "imgCard": "/img/top-10/local/series/card/9.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/9.png"
             },
             {
                 "id": 10,
@@ -416,17 +435,18 @@
                 ],
                 "rating": "13+",
                 "link": "https://www.netflix.com/watch/81436209",
-                "imgCard": "/img/top-10/local/series/card/10.jpg"
+                "imgCard": "/img/top-10/local/series/card/10.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/10.png"
             }
         ],
         "globalMovies": [
             {
                 "id": 1,
-                "name": "Jaat",
-                "title": "Jaat",
+                "name": "Straw",
+                "title": "Straw",
                 "year": "2025",
-                "duration": "2h 30m",
-                "description": "A mysterious stranger journeys to a remote town controlled by a callous crime lord, with one violent mission — restoring justice to its people.",
+                "duration": "1h 48m",
+                "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
                 "genre": [
                     "",
                     "",
@@ -438,7 +458,207 @@
                     ""
                 ],
                 "rating": "16+",
-                "link": "https://www.netflix.com/watch/82034833"
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/1.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/1.png"
+            },
+            {
+                "id": 2,
+                "name": "KPop Demon Hunters",
+                "title": "KPop Demon Hunters",
+                "year": "2025",
+                "duration": "1h 40m",
+                "description": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/2.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/2.png"
+            },
+            {
+                "id": 3,
+                "name": "Trainwreck: The Astroworld Tragedy",
+                "title": "Trainwreck: The Astroworld Tragedy",
+                "year": "2025",
+                "duration": "1h 21m",
+                "description": "Featuring exclusive interviews with survivors, paramedics and festival staff, this documentary examines the 2021 Astroworld tragedy and its aftermath.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/3.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/3.png"
+            },
+            {
+                "id": 4,
+                "name": "Titan: The OceanGate Submersible Disaster",
+                "title": "Titan: The OceanGate Submersible Disaster",
+                "year": "2025",
+                "duration": "1h 52m",
+                "description": "OceanGate's Titan tourist submersible imploded in 2023 on a deep-sea dive to the Titanic. This documentary details how a bold vision ended in tragedy.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/4.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/4.png"
+            },
+            {
+                "id": 5,
+                "name": "Plane",
+                "title": "Plane",
+                "year": "2025",
+                "duration": "1h 47m",
+                "description": "When a lightning strike forces him to crash-land on a remote island, a determined pilot fights to protect his passengers from a violent local militia.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/5.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/5.png"
+            },
+            {
+                "id": 6,
+                "name": "Trainwreck: Mayor of Mayhem",
+                "title": "Trainwreck: Mayor of Mayhem",
+                "year": "2025",
+                "duration": "0h 50m",
+                "description": "Rob Ford scandalized Canadian politics as the brash yet beloved mayor of Toronto — until an infamous video of him smoking crack sparked his downfall.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/6.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/6.png"
+            },
+            {
+                "id": 7,
+                "name": "Copycat",
+                "title": "Copycat",
+                "year": "1995",
+                "duration": "2h 3m",
+                "description": "The hunt for a grisly San Francisco murderer makes unlikely comrades of two women: a detective and a psychologist who survived a serial killer attack.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/7.jpg",
+                "imgCardLogo": "/img/top-10/local/series/card/logo/7.png"
+            },
+            {
+                "id": 8,
+                "name": "28 Weeks Later",
+                "title": "28 Weeks Later",
+                "year": "2007",
+                "duration": "1h 40m",
+                "description": "A family separated when the Rage Virus decimated Britain reunites months later as US forces escort survivors returning home — but the danger isn't over.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/8.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/8.png"
+            },
+            {
+                "id": 9,
+                "name": "Land of Bad",
+                "title": "Land of Bad",
+                "year": "2024",
+                "duration": "1h 54m",
+                "description": "After a Special Forces op in the Philippines goes bad, a rookie soldier relies on a remote Air Force drone pilot to survive in hostile territory.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/9.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/9.png"
+            },
+            {
+                "id": 10,
+                "name": "The Valet",
+                "title": "The Valet",
+                "year": "2022",
+                "duration": "2h 3m",
+                "description": "A parking valet becomes an overnight star when a film idol asks him to pose as her lover to deflect gossip from her real, and very married, boyfriend.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com",
+                "imgCard": "/img/top-10/global/movies/card/10.jpg",
+                "imgCardLogo": "/img/top-10/global/movies/card/logo/10.png"
             }
         ],
         "globalShows": [
@@ -448,7 +668,7 @@
                 "title": "The Waterfront",
                 "year": "2025",
                 "duration": "8 Episodes",
-                "description": "Their fishing business is failing — and smuggling drugs is easy money. But when this wealthy family breaks bad, they'll find themselves in deadly waters.",
+                "description": "A prominent North Carolina fishing family wades into treacherous waters to keep their crumbling business empire afloat.",
                 "genre": [
                     "TV Dramas",
                     "Crime TV Shows",
@@ -461,15 +681,17 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81745063",
-                "imgCard": "/img/top-10/global/series/card/1.jpg"
+                "imgCard": "/img/top-10/global/series/card/1.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/1.png"
+
             },
             {
                 "id": 2,
-                "name": "The Waterfront",
-                "title": "The Waterfront",
+                "name": "Ginny & Georgia: Season 3",
+                "title": "Ginny & Georgia: Season 3",
                 "year": "2025",
-                "duration": "3 Seasons",
-                "description": "They're in a new state. They're seeking a fresh start. But Ginny and Georgia find that wherever they go, there they are.",
+                "duration": "10 Episodes",
+                "description": "As Georgia's trial sends shockwaves through Wellsbury, Ginny and Austin become entangled in a web of lies and betrayal, where no one emerges unscathed.",
                 "genre": [
                     "Romantic TV Dramas",
                     "TV Dramas",
@@ -482,7 +704,180 @@
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81745063",
-                "imgCard": "/img/top-10/global/series/card/2.jpg"
+                "imgCard": "/img/top-10/global/series/card/2.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/2.png"
+            },
+            {
+                "id": 3,
+                "name": "The Survivors",
+                "title": "The Survivors",
+                "year": "2025",
+                "duration": "6 Episodes",
+                "description": "Fifteen years ago, the loss of three young people tore this sleepy seaside town apart. Now, the mysterious death of a young woman dredges up the past.",
+                "genre": [
+                    "Tv Dramas",
+                    "Australian",
+                    "TV Shows Based on Books"
+                ],
+                "cast": [
+                    "Charlie Vickers",
+                    "Yerin Ha",
+                    "Robyn Malcolms"
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81647727",
+                "imgCard": "/img/top-10/global/series/card/3.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/3.png"
+            },
+            {
+                "id": 4,
+                "name": "DEPT.Q",
+                "title": "DEPT.Q",
+                "year": "2025",
+                "duration": "9 Episodes",
+                "description": "A brash but brilliant cop becomes head of a new police department, where he leads an unlikely team of misfits in solving Edinburgh's cold cases.",
+                "genre": [
+                    "TV Dramas",
+                    "British",
+                    "TV Shows Based on Books"
+                ],
+                "cast": [
+                    "Matthew Goode",
+                    "Chloe Pirrie",
+                    "Jamie Sives"
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81487660",
+                "imgCard": "/img/top-10/global/series/card/4.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/4.png"
+            },
+            {
+                "id": 5,
+                "name": "AMERICA'S SWEETHEART: Dallas Cowboys Cheerleaders: Season 2",
+                "title": "AMERICA'S SWEETHEART: Dallas Cowboys Cheerleaders: Season 2",
+                "year": "2025",
+                "duration": "7 Episodes",
+                "description": "A new batch of hopefuls face fierce competition, high expectations and even higher kicks as they vie for a spot with the Dallas Cowboys Cheerleaders.",
+                "genre": [
+                    "Reality TV",
+                    "Documentary Series",
+                    "Sports"
+                ],
+                "cast": [],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81685878",
+                "imgCard": "/img/top-10/global/series/card/5.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/5.png"
+            },
+            {
+                "id": 6,
+                "name": "Sirens",
+                "title": "Sirens",
+                "year": "2025",
+                "duration": "5 Episodes",
+                "description": "Worried about her sister's too-close relationship with her billionaire boss, a scrappy everywoman seeks answers at a lavish seaside estate.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81589551",
+                "imgCard": "/img/top-10/global/series/card/6.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/6.png"
+            },
+            {
+                "id": 7,
+                "name": "FUBAR: Season 2",
+                "title": "FUBAR: Season 2",
+                "year": "2025",
+                "duration": "8 Episodes",
+                "description": "Eager to return to action, Luke, Emma and the crew get more than they bargained for when a mysterious terrorist threatens to unleash worldwide chaos.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81397077",
+                "imgCard": "/img/top-10/global/series/card/7.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/7.png"
+            },
+            {
+                "id": 8,
+                "name": "Ginny & Georgia: Season 1",
+                "title": "Ginny & Georgia: Season 1",
+                "year": "2021",
+                "duration": "10 Episodes",
+                "description": "Free-spirited Georgia and her two kids, Ginny and Austin, move north in search of a fresh start but find that the road to new beginnings can be bumpy.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81025696",
+                "imgCard": "/img/top-10/global/series/card/8.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/8.png"
+            },
+            {
+                "id": 9,
+                "name": "Raw:2025",
+                "title": "Raw:2025",
+                "year": "2025",
+                "duration": "1h 43m",
+                "description": "Asuka makes her anticipated return in a Queen of the Ring Tournament Fatal 4-Way Match. Jey Uso shakes up the King of the Ring Tournament.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/",
+                "imgCard": "/img/top-10/global/series/card/9.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/9.png"
+            },
+            {
+                "id": 10,
+                "name": "Ginny & Georgia: Season 2",
+                "title": "Ginny & Georgia: Season 2",
+                "year": "2023",
+                "duration": "10 Episodes",
+                "description": "New relationships and challenges await Georgia and Ginny as they navigate life in Wellsbury — until secrets from the past threaten everything.",
+                "genre": [
+                    "",
+                    "",
+                    ""
+                ],
+                "cast": [
+                    "",
+                    "",
+                    ""
+                ],
+                "rating": "16+",
+                "link": "https://www.netflix.com/watch/81025696",
+                "imgCard": "/img/top-10/global/series/card/10.jpg",
+                "imgCardLogo": "/img/top-10/global/series/card/logo/10.png"
             }
         ]
     }
