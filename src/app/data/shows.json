@@ -1,5 +1,5 @@
 {
-    "updated": "2025-06-26",
+    "updated": "2025-07-02",
     "entertainment": {
         "localMovies": [
             {
@@ -29,8 +29,8 @@
                 "name": "Straw",
                 "title": "Straw",
                 "year": "2025",
-                "duration": "1h 47m",
-                "description": "In this tense, twisty thriller from Tyler Perry, a devoted single mother is pushed to the brink when a desperately bad day spirals out of control.",
+                "duration": "1h 48m",
+                "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
                 "genre": [
                     "Drama Movies",
                     "Thriller Movies",
@@ -225,15 +225,14 @@
         "localShows": [
             {
                 "id": 1,
-                "name": "Bet",
-                "title": "Bet",
+                "name": "Bet: Season 1",
+                "title": "Bet: Season 1",
                 "year": "2025",
                 "duration": "10 Episodes",
                 "description": "At a private school where gambling determines social status, a skillful new student with a mysterious past is shaking things up — and betting on revenge.",
                 "genre": [
                     "TV Dramas",
                     "Teen TV",
-                    "Shows",
                     "US TV Shows"
                 ],
                 "cast": [
@@ -248,10 +247,10 @@
             },
             {
                 "id": 2,
-                "name": "Tastefully Yours",
-                "title": "Tastefully Yours",
+                "name": "Tastefully Yours: Limited Series",
+                "title": "Tastefully Yours: Limited Series",
                 "year": "2025",
-                "duration": "10 Episodes (Limited Series)",
+                "duration": "10 Episodes",
                 "description": "Driven to claim top culinary honors, an arrogant heir meets a low-profile but stubborn chef whose recipes astonish him — sparking an unlikely romance.",
                 "genre": [
                     "Romantic TV Dramas",
@@ -271,10 +270,10 @@
             },
             {
                 "id": 3,
-                "name": "Our Unwritten Seoul",
-                "title": "Our Unwritten Seoul",
+                "name": "Our Unwritten Seoul: Limited Series",
+                "title": "Our Unwritten Seoul: Limited Series",
                 "year": "2025",
-                "duration": "12 Episodes (Limited Series)",
+                "duration": "12 Episodes",
                 "description": "Twin sisters, whose similarities end with their looks, swap identities amid personal struggles — embarking on a journey to rediscover love and life.",
                 "genre": [
                     "TV Dramas",
@@ -358,10 +357,10 @@
             },
             {
                 "id": 7,
-                "name": "Mad Unicorn",
-                "title": "Mad Unicorn",
+                "name": "Mad Unicorn: Limited Series",
+                "title": "Mad Unicorn: Limited Series",
                 "year": "2025",
-                "duration": "7 Episodes (Limited Series)",
+                "duration": "7 Episodes",
                 "description": "Hoping to escape poverty, an aspiring entrepreneur comes up with a brilliant idea for a courier service that might just make him rich. But at what cost?",
                 "genre": [
                     "TV Dramas",
@@ -448,17 +447,17 @@
                 "duration": "1h 48m",
                 "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Drama Movies",
+                    "Thriller Movies",
+                    "Social Issue Dramas"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Taraji P. Henson",
+                    "Sherri Shepherd",
+                    "Teyana Taylor"
                 ],
                 "rating": "16+",
-                "link": "https://www.netflix.com",
+                "link": "https://www.netflix.com/watch/81774713",
                 "imgCard": "/img/top-10/global/movies/card/1.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/1.png"
             },
@@ -470,17 +469,17 @@
                 "duration": "1h 40m",
                 "description": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Music",
+                    "Family Movies",
+                    "Kids & Family Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Arden Cho",
+                    "Ahn Hyo-seop",
+                    "Ken Jeong"
                 ],
-                "rating": "16+",
-                "link": "https://www.netflix.com",
+                "rating": "10+",
+                "link": "https://www.netflix.com/watch/81498621",
                 "imgCard": "/img/top-10/global/movies/card/2.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/2.png"
             },
@@ -492,17 +491,12 @@
                 "duration": "1h 21m",
                 "description": "Featuring exclusive interviews with survivors, paramedics and festival staff, this documentary examines the 2021 Astroworld tragedy and its aftermath.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Documentary Series",
+                    "Hip-Hop"
                 ],
-                "cast": [
-                    "",
-                    "",
-                    ""
-                ],
+                "cast": [],
                 "rating": "16+",
-                "link": "https://www.netflix.com",
+                "link": "https://www.netflix.com/watch/81743369",
                 "imgCard": "/img/top-10/global/movies/card/3.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/3.png"
             },
@@ -514,17 +508,13 @@
                 "duration": "1h 52m",
                 "description": "OceanGate's Titan tourist submersible imploded in 2023 on a deep-sea dive to the Titanic. This documentary details how a bold vision ended in tragedy.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Documentary Films",
+                    "Science and Nature Documentaries",
+                    "US Movies"
                 ],
-                "cast": [
-                    "",
-                    "",
-                    ""
-                ],
-                "rating": "16+",
-                "link": "https://www.netflix.com",
+                "cast": [],
+                "rating": "13+",
+                "link": "https://www.netflix.com/watch/81712178",
                 "imgCard": "/img/top-10/global/movies/card/4.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/4.png"
             },
@@ -536,14 +526,14 @@
                 "duration": "1h 47m",
                 "description": "When a lightning strike forces him to crash-land on a remote island, a determined pilot fights to protect his passengers from a violent local militia.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Action thriller",
+                    "Survival",
+                    "Disaster"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Gerard Butler",
+                    "Mike Colter",
+                    "Tony Goldwyn"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com",
@@ -558,17 +548,12 @@
                 "duration": "0h 50m",
                 "description": "Rob Ford scandalized Canadian politics as the brash yet beloved mayor of Toronto — until an infamous video of him smoking crack sparked his downfall.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Documentary Films",
+                    "Political Documentaries"
                 ],
-                "cast": [
-                    "",
-                    "",
-                    ""
-                ],
+                "cast": [],
                 "rating": "16+",
-                "link": "https://www.netflix.com",
+                "link": "https://www.netflix.com/watch/81763683",
                 "imgCard": "/img/top-10/global/movies/card/6.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/6.png"
             },
@@ -580,17 +565,17 @@
                 "duration": "2h 3m",
                 "description": "The hunt for a grisly San Francisco murderer makes unlikely comrades of two women: a detective and a psychologist who survived a serial killer attack.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Crime Movies",
+                    "Thriller Movies",
+                    "Psychological Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Sigourney Weaver",
+                    "Holly Hunter",
+                    "Dermot Mulroney"
                 ],
                 "rating": "16+",
-                "link": "https://www.netflix.com",
+                "link": "https://www.netflix.com/watch/397970",
                 "imgCard": "/img/top-10/global/movies/card/7.jpg",
                 "imgCardLogo": "/img/top-10/local/series/card/logo/7.png"
             },
@@ -602,17 +587,17 @@
                 "duration": "1h 40m",
                 "description": "A family separated when the Rage Virus decimated Britain reunites months later as US forces escort survivors returning home — but the danger isn't over.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Sci-Fi Movies",
+                    "Horror Movies",
+                    "Action & Adventure Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Robert Carlyle",
+                    "Rose Byrne",
+                    "Jermyn Renner"
                 ],
                 "rating": "16+",
-                "link": "https://www.netflix.com",
+                "link": "https://www.netflix.com/watch/70058018",
                 "imgCard": "/img/top-10/global/movies/card/8.jpg",
                 "imgCardLogo": "/img/top-10/global/movies/card/logo/8.png"
             },
@@ -624,14 +609,14 @@
                 "duration": "1h 54m",
                 "description": "After a Special Forces op in the Philippines goes bad, a rookie soldier relies on a remote Air Force drone pilot to survive in hostile territory.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Action & Adventure Movies",
+                    "Thriller Movies",
+                    "War Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Liams Hemsworth",
+                    "Russell Crowe",
+                    "Luke Hemsworth"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com",
@@ -646,14 +631,14 @@
                 "duration": "2h 3m",
                 "description": "A parking valet becomes an overnight star when a film idol asks him to pose as her lover to deflect gossip from her real, and very married, boyfriend.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Romantic Comedy Movies",
+                    "Comedy Movies",
+                    "US Movies"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "samara Weaving",
+                    "Eugenio Derbez",
+                    "Carmen Salinas"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com",
@@ -777,14 +762,14 @@
                 "duration": "5 Episodes",
                 "description": "Worried about her sister's too-close relationship with her billionaire boss, a scrappy everywoman seeks answers at a lavish seaside estate.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "TV Dramas",
+                    "TV Comedies",
+                    "US TV Shows"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Julianne Moore",
+                    "Meghann Fahy",
+                    "Milly Alcock"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81589551",
@@ -799,14 +784,14 @@
                 "duration": "8 Episodes",
                 "description": "Eager to return to action, Luke, Emma and the crew get more than they bargained for when a mysterious terrorist threatens to unleash worldwide chaos.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "TV Comedies",
+                    "TV Action & Adventure",
+                    "US TV Shows"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Arnold Schwarzenegger",
+                    "Monica Barbaro",
+                    "Milan Carter"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81397077",
@@ -821,14 +806,14 @@
                 "duration": "10 Episodes",
                 "description": "Free-spirited Georgia and her two kids, Ginny and Austin, move north in search of a fresh start but find that the road to new beginnings can be bumpy.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Romantic TV Dramas",
+                    "TV Dramas",
+                    "Teen TV Shows"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Brianne Howey",
+                    "Antonia Gentry",
+                    "Diesel La Torraca"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81025696",
@@ -837,21 +822,15 @@
             },
             {
                 "id": 9,
-                "name": "Raw:2025",
-                "title": "Raw:2025",
+                "name": "Raw: 2025 - June 16, 2025",
+                "title": "Raw: 2025 - June 16, 2025",
                 "year": "2025",
                 "duration": "1h 43m",
                 "description": "Asuka makes her anticipated return in a Queen of the Ring Tournament Fatal 4-Way Match. Jey Uso shakes up the King of the Ring Tournament.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Sports Entertainment"
                 ],
-                "cast": [
-                    "",
-                    "",
-                    ""
-                ],
+                "cast": [],
                 "rating": "16+",
                 "link": "https://www.netflix.com/",
                 "imgCard": "/img/top-10/global/series/card/9.jpg",
@@ -865,14 +844,14 @@
                 "duration": "10 Episodes",
                 "description": "New relationships and challenges await Georgia and Ginny as they navigate life in Wellsbury — until secrets from the past threaten everything.",
                 "genre": [
-                    "",
-                    "",
-                    ""
+                    "Romantic TV Dramas",
+                    "TV Dramas",
+                    "Teen TV Shows"
                 ],
                 "cast": [
-                    "",
-                    "",
-                    ""
+                    "Brianne Howey",
+                    "Antonia Gentry",
+                    "Diesel La Torraca"
                 ],
                 "rating": "16+",
                 "link": "https://www.netflix.com/watch/81025696",
