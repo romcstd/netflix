@@ -12,6 +12,13 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+} from "@/components/ui/dialog"
+
 // JSON data imports
 import countries from "@/app/data/countries.json"
 import entertainments from "@/app/data/entertainments.json";
@@ -41,6 +48,7 @@ type ShowItem = {
 export default function Top10() {
     const [selectedCountry, setSelectedCountry] = useState<string>(countries[0].value);
     const [selectedEntertainment, setSelectedEntertainment] = useState<string>(entertainments[0].value);
+    const [selectedShow, setSelectedShow] = useState<ShowItem | null>(null);
 
     // Filter entertainments for selected country
     const filteredEntertainment = useMemo(() => {
@@ -130,6 +138,7 @@ export default function Top10() {
                             {data.map((item: ShowItem, index) => (
                                 <CarouselItem
                                     key={index}
+                                    onClick={() => setSelectedShow(item)}
                                     className="group top-10-carousel-item relative basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
                                 >
                                     {/* Rank Number (Outside Card) */}
@@ -141,27 +150,19 @@ export default function Top10() {
                                         {/* Poster Image */}
                                         <CardContent className="relative aspect-[2/3] w-full h-auto">
                                             <Image
-                                                src={
-                                                    item.imgCard && item.imgCard !== ""
-                                                        ? item.imgCard
-                                                        : "/img/top-10/placeholder.png"
-                                                }
+                                                src={item.imgCard?.trim() || "/img/top-10/placeholder.png"}
                                                 alt={item.name}
                                                 fill
                                                 className="object-cover"
                                             />
                                         </CardContent>
-                                        <CardFooter className="top-10-carousel-item-card-footer absolute bottom-0 left-0 right-0 flex justify-center z-10 w-full bg-gradient-to-t from-black/80 to-transparent">
+                                        <CardFooter className="top-10-carousel-item-card-footer absolute bottom-0 left-0 right-0 aspect-[16/9] flex justify-center z-10 w-full bg-gradient-to-t from-black/80 to-transparent">
                                             <Image
-                                                src={
-                                                    item.imgCardLogo && item.imgCardLogo! != ""
-                                                        ? item.imgCardLogo
-                                                        : "/img/top-10/placeholder-logo.png"
-                                                }
-                                                alt={item.name}
-                                                className="object-contain"
-                                                width={240}
-                                                height={153} />
+                                                    src={item.imgCardLogo?.trim() || "/img/top-10/placeholder-logo.png"}
+                                                    alt={item.name}
+                                                    fill
+                                                    className="object-contain"
+                                                />
                                         </CardFooter>
                                     </Card>
                                 </CarouselItem>
@@ -171,6 +172,28 @@ export default function Top10() {
                         <CarouselNext />
                     </Carousel>
                 </div>
+                <Dialog open={!!selectedShow} onOpenChange={() => setSelectedShow(null)}>
+                    <DialogContent className="max-w-md">
+                        <DialogHeader>
+                            <DialogTitle>{selectedShow?.name}</DialogTitle>
+                        </DialogHeader>
+                        <div className="flex flex-col gap-4">
+                            <div className="relative w-full h-60 rounded-md overflow-hidden">
+                                {selectedShow?.imgCard && (
+                                    <Image
+                                        src={selectedShow.imgCard}
+                                        alt={selectedShow.name}
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                )}
+                            </div>
+                            <p className="text-sm text-gray-700 dark:text-gray-300">
+                                This is a placeholder description for <strong>{selectedShow?.name}</strong>.
+                            </p>
+                        </div>
+                    </DialogContent>
+                </Dialog>
             </section>
         </>
     );
