@@ -139,14 +139,6 @@ body {
   .top-10-headline-container {
     @apply container mx-auto;
   }
-
-  .top-10-cards {
-    @apply relative;
-  }
-
-  .top-10-cards-container {
-    @apply container mx-auto;
-  }
 }
 
 @layer base {

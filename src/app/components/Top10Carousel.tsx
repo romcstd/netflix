@@ -145,12 +145,12 @@ export default function Top10() {
 
                 <div className="relative container mx-auto mb-4 mt-8">
                     <Carousel opts={{ align: "start" }} className="w-full">
-                        <CarouselContent className="top-10-carousel-content p-4">
+                        <CarouselContent className="top-10-carousel-content m-0 py-4">
                             {data.map((item: ShowItem, index) => (
                                 <CarouselItem
                                     key={index}
                                     onClick={() => setSelectedShow(item)}
-                                    className="group cursor-pointer top-10-carousel-item relative basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
+                                    className="group cursor-pointer top-10-carousel-item pl-2 pr-2 relative basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
                                 >
                                     {/* Rank Number (Outside Card) */}
                                     <div className="absolute left-2 -top-12 z-10 text-[6rem] font-black text-white/60 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] pointer-events-none">
@@ -181,8 +181,8 @@ export default function Top10() {
                                 </CarouselItem>
                             ))}
                         </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
+                        <CarouselPrevious className="hidden lg:inline-flex" />
+                        <CarouselNext className="hidden lg:inline-flex" />
                     </Carousel>
                 </div>
                 <Dialog open={!!selectedShow} onOpenChange={() => setSelectedShow(null)}>
