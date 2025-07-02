@@ -101,7 +101,7 @@ body {
   }
 
   .top-10 {
-    @apply relative bg-[#242424] pt-[100px] pb-[100px] !top-0;
+    @apply relative bg-[#242424] pb-16 !top-0;
   }
 
   .top-10-category {
