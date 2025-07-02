@@ -11,6 +11,7 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
+    CarouselApi,
 } from "@/components/ui/carousel"
 
 import {
@@ -58,6 +59,7 @@ export default function Top10() {
     const [selectedCountry, setSelectedCountry] = useState<string>(countries[0].value);
     const [selectedEntertainment, setSelectedEntertainment] = useState<string>(entertainments[0].value);
     const [selectedShow, setSelectedShow] = useState<ShowItem | null>(null);
+    const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
 
     // Filter entertainments for selected country
     const filteredEntertainment = useMemo(() => {
@@ -94,13 +96,19 @@ export default function Top10() {
         }
     };
 
+        useEffect(() => {
+        if (carouselApi) {
+            carouselApi.scrollTo(0);
+        }
+    }, [selectedCountry, selectedEntertainment, carouselApi]);
+
     return (
         <>
             <section className="top-10">
                 {/* Dropdowns */}
                 <div className="top-10-category">
                     <div className="top-10-category-container">
-                        <Image src="/img/top-10/Top10Badge.svg" alt="Netflix Top 10 Logo" className="top-10-category-logo" width={40} height={47} />
+                        <Image src="/img/top-10/top-10-badge.svg" alt="Netflix Top 10 Logo" className="top-10-category-logo" width={40} height={47} />
                         <div className="top-10-category-select-wrapper">
                             <label htmlFor="country" className="sr-only">Country</label>
                             <select
@@ -144,13 +152,13 @@ export default function Top10() {
                 </div>
 
                 <div className="relative container mx-auto mb-4 mt-8">
-                    <Carousel opts={{ align: "start" }} className="w-full">
-                        <CarouselContent className="top-10-carousel-content p-4">
+                    <Carousel opts={{ align: "start" }} setApi={setCarouselApi} className="w-full">
+                        <CarouselContent className="top-10-carousel-content m-0 py-4">
                             {data.map((item: ShowItem, index) => (
                                 <CarouselItem
                                     key={index}
                                     onClick={() => setSelectedShow(item)}
-                                    className="group cursor-pointer top-10-carousel-item relative basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
+                                    className="group cursor-pointer top-10-carousel-item pl-2 pr-2 relative basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5 2xl:basis-1/5"
                                 >
                                     {/* Rank Number (Outside Card) */}
                                     <div className="absolute left-2 -top-12 z-10 text-[6rem] font-black text-white/60 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] pointer-events-none">
@@ -161,7 +169,7 @@ export default function Top10() {
                                         {/* Poster Image */}
                                         <CardContent className="relative aspect-[2/3] w-full h-auto">
                                             <Image
-                                                src={item.imgCard?.trim() || "/img/top-10/placeholder.png"}
+                                                src={item.imgCard?.trim() || "/img/top-10/top-10-card-image-placeholder.png"}
                                                 alt={item.name}
                                                 fill
                                                 className="object-cover"
@@ -181,16 +189,16 @@ export default function Top10() {
                                 </CarouselItem>
                             ))}
                         </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
+                        <CarouselPrevious className="hidden lg:inline-flex" />
+                        <CarouselNext className="hidden lg:inline-flex" />
                     </Carousel>
                 </div>
                 <Dialog open={!!selectedShow} onOpenChange={() => setSelectedShow(null)}>
                     <DialogContent
-                        className="max-w-xs xs:max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl w-full max-h-[90vh] gap-0 p-0 rounded bg-background border-l-0"
+                        className="max-w-xs xs:max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl w-full max-h-full rounded-lg gap-0 p-0 bg-background border-0 flex flex-col"
                     >
                         {/* Sticky Header (non-scrollable) */}
-                        <DialogHeader className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 border-b bg-background rounded">
+                        <DialogHeader className="relative top-0 z-10 flex items-center justify-between px-6 py-4 border-b bg-background rounded-tl-lg rounded-tr-lg">
                             <DialogTitle className="text-2xl font-bold text-foreground">
                                 {selectedShow?.name}
                             </DialogTitle>
@@ -200,7 +208,7 @@ export default function Top10() {
                         </DialogHeader>
 
                         {/* Scrollable content starts here */}
-                        <div className="overflow-y-auto max-h-[calc(90vh-72px)] mb-4">
+                        <div className="mb-4">
                             <div className="relative w-full h-64 sm:h-80 overflow-hidden">
                                 {selectedShow?.imgCard && (
                                     <Image

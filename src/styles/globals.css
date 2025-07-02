@@ -101,7 +101,7 @@ body {
   }
 
   .top-10 {
-    @apply relative bg-[#242424] pt-[100px] pb-[100px] !top-0;
+    @apply relative bg-[#242424] pb-16 !top-0;
   }
 
   .top-10-category {
@@ -137,14 +137,6 @@ body {
   }
 
   .top-10-headline-container {
-    @apply container mx-auto;
-  }
-
-  .top-10-cards {
-    @apply relative;
-  }
-
-  .top-10-cards-container {
     @apply container mx-auto;
   }
 }
