@@ -8,6 +8,8 @@ export default function Top10HeroBanner() {
                     src="/img/top-10/top-10-banner.jpg"
                     alt="Top 10 Banner Background"
                     className="w-full h-full object-cover object-center"
+                    width={1920}
+                    height={600}
                 />
                 <div className="absolute inset-0 bg-black/60" />
             </div>
