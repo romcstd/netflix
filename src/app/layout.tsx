@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { Inter } from 'next/font/google';
 import "@/styles/globals.css"
 
@@ -13,11 +14,13 @@ export const metadata = {
   description: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" app-version="release-v2.9">
       <body className={`${inter.variable} antialiased`}>
-        <main>{children}</main>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <main>{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
