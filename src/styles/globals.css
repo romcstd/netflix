@@ -100,6 +100,8 @@ body {
     @apply absolute top-0 left-0 w-full h-full bg-black/70 z-10;
   }
 
+  /* ----- TOP 10  ----- */
+
   .top-10 {
     @apply relative bg-[#242424] pb-16 !top-0;
   }
@@ -128,16 +130,16 @@ body {
     @apply appearance-none bg-transparent border border-white/30 rounded-2xl text-white text-sm font-normal pl-4 pr-8 py-1 capitalize h-fit;
   }
 
-  .top-10-category-select > option {
-    @apply text-black;
-  }
-
   .top-10-headline {
     @apply text-white text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-8;
   }
 
   .top-10-headline-container {
     @apply container mx-auto;
+  }
+
+  .top-10-carousel {
+    @apply relative container mx-auto mb-4 mt-8;
   }
 }
 

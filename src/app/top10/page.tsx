@@ -1,12 +1,10 @@
-import Top10Carousel from "@/app/components/Top10Carousel"
-import Top10HeroBanner from "@/app/components/Top10HeroBanner"
-import Footer from "../components/Footer"
+import Top10 from "@/app/components/Top10/Top10";
+import Footer from "@/app/components/Footer";
 
-export default function Top10() {
+export default function Top10Page() {
     return (
         <>
-            <Top10HeroBanner />
-            <Top10Carousel />
+            <Top10 />
             <Footer />
         </>
     )
