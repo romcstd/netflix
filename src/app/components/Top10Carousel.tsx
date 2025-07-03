@@ -173,7 +173,7 @@ export default function Top10() {
                                                 alt={item.name}
                                                 fill
                                                 className="object-cover"
-                                                fetchPriority="high"
+                                                priority={index < 5}
                                             />
                                         </CardContent>
                                         <CardFooter className="top-10-carousel-item-card-footer absolute bottom-0 left-0 right-0 aspect-[16/9] flex justify-center z-10 w-full bg-gradient-to-t from-black/80 to-transparent">
@@ -182,7 +182,7 @@ export default function Top10() {
                                                 alt={item.name}
                                                 fill
                                                 className="object-contain"
-                                                fetchPriority="high"
+                                                priority={index < 5}
                                             />
                                         </CardFooter>
                                     </Card>
@@ -216,7 +216,6 @@ export default function Top10() {
                                         alt={selectedShow.name}
                                         fill
                                         className="object-cover"
-                                        priority
                                     />
                                 )}
                             </div>

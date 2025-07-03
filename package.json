@@ -1,6 +1,6 @@
 {
   "name": "netflix",
-  "version": "release-v2.8",
+  "version": "release-v2.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.3.4",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-slot": "^1.2.3",
     "@types/node": "^24.0.3",
