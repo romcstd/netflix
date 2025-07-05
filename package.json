@@ -1,6 +1,6 @@
 {
   "name": "netflix",
-  "version": "release-v2.9",
+  "version": "release-v3.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
