@@ -20,7 +20,7 @@ export default function Top10Dialog({
                     <DialogTitle id="dialog-title" className="text-2xl font-bold text-foreground">
                         {selectedShow?.name}
                     </DialogTitle>
-                    <DialogClose id="dialog-close" className="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+                    <DialogClose id="dialog-close" className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-0">
                         <FaXmark className="w-5 h-5" />
                     </DialogClose>
                 </DialogHeader>
@@ -50,7 +50,7 @@ export default function Top10Dialog({
                             </div>
                         )}
 
-                        {selectedShow?.cast?.length && (
+                        {selectedShow?.cast?.length > 0 && (
                             <div>
                                 <h4 className="text-sm font-semibold text-foreground">Cast:</h4>
                                 <p className="text-sm text-muted-foreground">{selectedShow.cast.join(", ")}</p>

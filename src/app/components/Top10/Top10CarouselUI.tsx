@@ -53,8 +53,8 @@ export default function Top10CarouselUI({ data, onSelect, setCarouselApi }: Prop
                     </CarouselItem>
                 ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden lg:inline-flex" />
-            <CarouselNext className="hidden lg:inline-flex" />
+            <CarouselPrevious className="hidden lg:inline-flex dark:bg-[#2d2d2d]/90" />
+            <CarouselNext className="hidden lg:inline-flex dark:bg-[#2d2d2d]/90" />
         </Carousel>
     );
 }

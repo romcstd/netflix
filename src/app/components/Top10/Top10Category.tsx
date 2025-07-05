@@ -1,8 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { FaChevronDown } from "react-icons/fa6";
 import { Country, Entertainment } from "./types";
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 
 interface Props {
     selectedCountry: string;
@@ -22,41 +29,41 @@ export default function Top10Category({
     onEntertainmentChange,
 }: Props) {
     return (
-        <div className="top-10-category">
-            <div className="top-10-category-container">
+        <div className="relative bg-secondary mb-8 py-2">
+            <div className="container mx-auto flex items-center justify-start">
                 <Image src="/img/top-10/top-10-badge.svg" alt="Netflix Top 10 Logo" className="top-10-category-logo" width={40} height={47} />
-                <div className="top-10-category-select-wrapper">
-                    <label htmlFor="country" className="sr-only">Country</label>
-                    <select
-                        id="country"
-                        value={selectedCountry}
-                        className="top-10-category-select"
-                        onChange={(e) => onCountryChange(e.target.value)}
-                    >
-                        {countries.map((country) => (
-                            <option key={country.id} value={country.value}>{country.name}</option>
-                        ))}
-                    </select>
-                    <div className="top-10-category-select-icon-wrapper">
-                        <FaChevronDown className="top-10-category-select-icon" />
-                    </div>
+                <div className="relative mr-2">
+                    <Select value={selectedCountry} onValueChange={onCountryChange}>
+                        <SelectTrigger className="h-fit capitalize w-32 rounded-2xl py-1 focus:outline-none focus:ring-0 focus:ring-offset-0">
+                            <SelectValue placeholder="Select a Country" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectGroup>
+                                {countries.map((country) => (
+                                    <SelectItem key={country.id} value={country.value} className="capitalize">
+                                        {country.name}
+                                    </SelectItem>
+                                ))}
+                            </SelectGroup>
+                        </SelectContent>
+                    </Select>
                 </div>
 
-                <div className="top-10-category-select-wrapper">
-                    <label htmlFor="entertainment" className="sr-only">Entertainment</label>
-                    <select
-                        id="entertainment"
-                        value={selectedEntertainment}
-                        className="top-10-category-select"
-                        onChange={(e) => onEntertainmentChange(e.target.value)}
-                    >
-                        {entertainments.map((ent) => (
-                            <option key={ent.id} value={ent.value}>{ent.name}</option>
-                        ))}
-                    </select>
-                    <div className="top-10-category-select-icon-wrapper">
-                        <FaChevronDown className="top-10-category-select-icon" />
-                    </div>
+                <div className="relative mr-2">
+                    <Select value={selectedEntertainment} onValueChange={onEntertainmentChange}>
+                        <SelectTrigger className="h-fit capitalize w-32 rounded-2xl py-1 focus:outline-none focus:ring-0 focus:ring-offset-0">
+                            <SelectValue placeholder="Select a Entertainment" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectGroup className="capitalize">
+                                {entertainments.map((ent) => (
+                                    <SelectItem key={ent.id} value={ent.value}>
+                                        {ent.name}
+                                    </SelectItem>
+                                ))}
+                            </SelectGroup>
+                        </SelectContent>
+                    </Select>
                 </div>
             </div>
         </div>

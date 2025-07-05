@@ -1,11 +1,18 @@
 import { ThemeProvider } from "@/app/components/ThemeProvider";
-import { Inter } from 'next/font/google';
+import { Inter, Montserrat  } from 'next/font/google';
 import "@/styles/globals.css"
 
 const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '700'], // Only load what you need
   variable: '--font-inter',      // Optional CSS variable
+  display: 'swap',
+});
+
+const montserrat = Montserrat ({
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '800', '900'], // Only load what you need
+  variable: '--font-montserrat',      // Optional CSS variable
   display: 'swap',
 });
 
@@ -17,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" app-version="release-v2.9">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} ${montserrat.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main>{children}</main>
         </ThemeProvider>
