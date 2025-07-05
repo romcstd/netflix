@@ -48,7 +48,7 @@ body {
 }
 
 @layer components {
-  .header {
+  /* .header {
     @apply absolute z-30 w-full py-6 px-12;
   }
 
@@ -98,49 +98,7 @@ body {
 
   .home-banner-content-background {
     @apply absolute top-0 left-0 w-full h-full bg-black/70 z-10;
-  }
-
-  /* ----- TOP 10  ----- */
-
-  .top-10 {
-    @apply relative bg-[#242424] pb-16 !top-0;
-  }
-
-  .top-10-category {
-    @apply bg-[#2d2d2d]/90 mb-8 py-2;
-  }
-
-  .top-10-category-container {
-    @apply container mx-auto flex items-center justify-start;
-  }
-
-  .top-10-category-select-wrapper {
-    @apply relative mr-2;
-  }
-
-  .top-10-category-select-icon-wrapper {
-    @apply absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none;
-  }
-
-  .top-10-category-select-icon {
-    @apply w-3 h-3 text-white;
-  }
-
-  .top-10-category-select {
-    @apply appearance-none bg-transparent border border-white/30 rounded-2xl text-white text-sm font-normal pl-4 pr-8 py-1 capitalize h-fit;
-  }
-
-  .top-10-headline {
-    @apply text-white text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-8;
-  }
-
-  .top-10-headline-container {
-    @apply container mx-auto;
-  }
-
-  .top-10-carousel {
-    @apply relative container mx-auto mb-4 mt-8;
-  }
+  } */
 }
 
 @layer base {
@@ -172,7 +130,7 @@ body {
     --radius: 0.5rem;
   }
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 0, 0%, 9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -180,7 +138,7 @@ body {
     --popover-foreground: 0 0% 98%;
     --primary: 0 0% 98%;
     --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
+    --secondary: 0, 0%, 13%;
     --secondary-foreground: 0 0% 98%;
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;

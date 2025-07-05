@@ -9,6 +9,14 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
+				heading: [
+					'var(--font-montserrat)',
+					'Poppins',
+					'Helvetica Neue',
+					'Helvetica',
+					'Arial',
+					'sans-serif'
+				],
 				primary: [
 					'Poppins',
 					'Helvetica Neue',

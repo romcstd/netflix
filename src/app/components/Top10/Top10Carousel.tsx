@@ -62,7 +62,7 @@ export default function Top10Carousel() {
     }, [selectedCountry, selectedEntertainmentName]);
 
     return (
-        <section className="top-10">
+        <section className="relative bg-background pb-16 !top-0">
             <Top10Category
                 selectedCountry={selectedCountry}
                 selectedEntertainment={selectedEntertainment}
@@ -72,11 +72,11 @@ export default function Top10Carousel() {
                 onEntertainmentChange={setSelectedEntertainment}
             />
 
-            <div className="top-10-headline">
-                <div className="top-10-headline-container">{headline}</div>
+            <div className="text-primary text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-8">
+                <div className="container mx-auto">{headline}</div>
             </div>
 
-            <div className="top-10-carousel">
+            <div className="relative container mx-auto mb-4 mt-8">
                 {data.length === 0 ? (
                         <p className="text-center text-muted-foreground">No shows available.</p>
                 ) : (
