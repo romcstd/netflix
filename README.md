@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone (Release v2.9)
+# 🎬 Netflix Clone (Release v3.1)
 
 A feature-rich, responsive **Netflix-style Top 10 landing page** built with the **Next.js App Router**, **Tailwind CSS**, and **ShadCN UI**. Supports dark/light theme toggling, country & entertainment filters, and a modular component architecture.
 ---
