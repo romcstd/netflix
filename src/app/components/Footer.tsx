@@ -4,12 +4,6 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto space-y-4">
         <ul className="flex flex-wrap gap-x-6 gap-y-2">
           <li>
-            <a href="/" className="hover:underline">Home</a>
-          </li>
-          <li>
-            <a href="/top10" className="hover:underline">Top 10</a>
-          </li>
-          <li>
             <a href="#" className="hover:underline">Privacy</a>
           </li>
           <li>
