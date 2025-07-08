@@ -62,7 +62,7 @@ export default function Top10Carousel() {
     }, [selectedCountry, selectedEntertainmentName]);
 
     return (
-        <section className="relative bg-background pb-16 !top-0">
+        <section className="relative bg-background pb-12 !top-0">
             <Top10Category
                 selectedCountry={selectedCountry}
                 selectedEntertainment={selectedEntertainment}
@@ -72,8 +72,8 @@ export default function Top10Carousel() {
                 onEntertainmentChange={setSelectedEntertainment}
             />
 
-            <div className="text-primary text-2xl sm:text-3xl md:text-4xl font-bold font-heading uppercase mb-8">
-                <div className="container mx-auto">{headline}</div>
+            <div className="container mx-auto my-12">
+                <div className="text-primary text-3xl text-center sm:text-left sm:text-4xl lg:text-5xl font-extrabold capitalize">{headline}</div>
             </div>
 
             <div className="relative container mx-auto mb-4 mt-8">
