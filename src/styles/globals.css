@@ -42,8 +42,8 @@ body {
     );
   }
 
-  .top-10-category-select > option {
-    color: black;
+  .bg-gradient-overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 15%, rgba(23, 23, 23, 0) 100%);
   }
 }
 
