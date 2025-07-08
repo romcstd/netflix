@@ -72,7 +72,7 @@ export default function Top10Carousel() {
                 onEntertainmentChange={setSelectedEntertainment}
             />
 
-            <div className="text-primary text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-8">
+            <div className="text-primary text-2xl sm:text-3xl md:text-4xl font-bold font-heading uppercase mb-8">
                 <div className="container mx-auto">{headline}</div>
             </div>
 

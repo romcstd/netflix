@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Top10HeroBanner() {
     return (
-        <section className="relative w-full h-[200px] sm:h-[300px] md:h-[400px] bg-black">
+        <section className="relative w-full h-[200px] sm:h-[300px] md:h-[400px]">
             <div className="absolute inset-0">
                 <Image
                     src="/img/top-10/top-10-banner.jpg"
