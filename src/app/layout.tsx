@@ -4,7 +4,7 @@ import "@/styles/globals.css"
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '500', '700'], // Only load what you need
+  weight: ['400', '500', '700', '800', '900'], // Only load what you need
   variable: '--font-inter',      // Optional CSS variable
   display: 'swap',
 });
@@ -23,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" app-version="release-v3.1">
+    <html lang="en" app-version="release-v3.3">
       <body className={`${inter.variable} ${montserrat.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main>{children}</main>
