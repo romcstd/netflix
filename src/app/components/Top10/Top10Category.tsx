@@ -29,7 +29,7 @@ export default function Top10Category({
     onEntertainmentChange,
 }: Props) {
     return (
-        <div className="relative bg-secondary mb-8 py-2">
+        <div className="relative bg-secondary py-2">
             <div className="container mx-auto flex items-center justify-start">
                 <Image src="/img/top-10/top-10-badge.svg" alt="Netflix Top 10 Logo" className="top-10-category-logo" width={40} height={47} />
                 <div className="relative mr-2">
