@@ -41,7 +41,8 @@ export default function Top10CarouselUI({ data, onSelect, setCarouselApi }: Prop
                                     className="object-cover"
                                 />
                             </CardContent>
-                            <CardFooter id="top-10-carousel-item-card-footer" className="absolute bottom-0 left-0 right-0 aspect-[16/9] flex justify-center z-10 w-full bg-gradient-to-t from-black/80 to-transparent">
+                            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
+                            <CardFooter id="top-10-carousel-item-card-footer" className="absolute bottom-0 left-0 right-0 aspect-[16/9] flex justify-center z-10 w-full">
                                 <Image
                                     src={item.imgCardLogo?.trim() || "/img/top-10/placeholder-logo.png"}
                                     alt={item.name}

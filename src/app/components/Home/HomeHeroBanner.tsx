@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeHeroBanner() {
     return (
@@ -26,12 +27,16 @@ export default function HomeHeroBanner() {
                     </p>
 
                     <div className="flex flex-row sm:flex-row gap-4">
-                        <button className="text-white font-bold py-3 px-6 bg-[#e50914] cursor-pointer transition duration-200 ease-out hover:bg-[#c11119] rounded-full">
-                            Get Netflix
-                        </button>
-                        <button className="border border-white text-white font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-black transition">
-                            View Plans
-                        </button>
+                        <Link href="https://help.netflix.com/en/node/101653" target="_blank" rel="noopener noreferrer">
+                            <button className="text-white font-bold py-3 px-6 bg-[#e50914] cursor-pointer transition duration-200 ease-out hover:bg-[#c11119] rounded-full">
+                                Get Netflix
+                            </button>
+                        </Link>
+                        <Link href="https://help.netflix.com/en/node/24926" target="_blank" rel="noopener noreferrer">
+                            <button className="border border-white text-white font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-black transition">
+                                View Plans
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
