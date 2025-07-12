@@ -45,6 +45,10 @@ body {
   .bg-gradient-overlay {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 15%, rgba(23, 23, 23, 0) 100%);
   }
+
+  [data-vaul-drawer][data-vaul-drawer-direction="bottom"]::after {
+    display: none !important;
+  }
 }
 
 @layer components {
