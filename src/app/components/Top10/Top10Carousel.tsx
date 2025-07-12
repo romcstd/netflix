@@ -1,8 +1,10 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useState, useEffect, useMemo, useRef } from "react";
 import Top10Category from "./Top10Category";
-import Top10Dialog from "./Top10Dialog";
+const Top10Dialog = dynamic(() => import("./Top10Dialog"));
+const Top10Drawer = dynamic(() => import("./Top10Drawer"));
 import Top10CarouselUISkeleton from "./Top10CarouselUISkeleton";
 import Top10CarouselUI from "./Top10CarouselUI";
 import { CarouselApi } from "@/components/ui/carousel";
@@ -12,6 +14,7 @@ import entertainments from "@/app/data/entertainments.json";
 import shows from "@/app/data/shows.json";
 
 import { Entertainment, ShowItem } from "./types";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 export default function Top10Carousel() {
     const [selectedCountry, setSelectedCountry] = useState<string>(countries[0].value);
@@ -26,7 +29,7 @@ export default function Top10Carousel() {
     useEffect(() => {
         const valid = filteredEntertainment.find(ent => ent.value === selectedEntertainment);
         setSelectedEntertainment(valid ? valid.value : filteredEntertainment[0]?.value || "");
-    }, [filteredEntertainment]);
+    }, [filteredEntertainment, selectedEntertainment]);
 
     const selectedEntertainmentName = useMemo(() => {
         return filteredEntertainment.find((ent) => ent.value === selectedEntertainment)?.name || "";
@@ -52,6 +55,8 @@ export default function Top10Carousel() {
             : `${selectedCountry} Top 10 ${selectedEntertainmentName}`;
     }, [selectedCountry, selectedEntertainmentName]);
 
+    const isDesktop = useMediaQuery("(min-width: 768px)");
+
     return (
         <section className="relative bg-background pb-12 !top-0">
             <Top10Category
@@ -75,7 +80,13 @@ export default function Top10Carousel() {
                 )}
             </div>
 
-            <Top10Dialog selectedShow={selectedShow} onClose={() => setSelectedShow(null)} />
+            {selectedShow && (
+                isDesktop ? (
+                    <Top10Dialog selectedShow={selectedShow} onClose={() => setSelectedShow(null)} />
+                ) : (
+                    <Top10Drawer selectedShow={selectedShow} onClose={() => setSelectedShow(null)} />
+                )
+            )}
         </section>
     );
 }
