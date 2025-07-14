@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone (Release v3.5)
+# 🎬 Netflix Clone (Release v3.6)
 
 A feature-rich, responsive **Netflix-style Top 10 landing page** built with the **Next.js App Router**, **Tailwind CSS**, and **ShadCN UI**. Supports dark/light theme toggling, country & entertainment filters, and a modular component architecture.
 ---
@@ -15,18 +15,17 @@ A feature-rich, responsive **Netflix-style Top 10 landing page** built with the 
 ---
 
 ## 🛠️ Tech Stack
-
-| Stack           | Description                                |
-|-----------------|--------------------------------------------|
-| **Next.js**     | App Router (v14.2.15)                      |
-| **React 18**    | UI Framework                               |
-| **Tailwind CSS**| Utility-first styling                      |
-| **ShadCN UI**   | Dialog, Select, Carousel via Radix + Embla |
-| **Lucide + React Icons** | Iconography                       |
-| **Theme Support** | Dark/Light via `next-themes`             |
-| **Embla Carousel** | Smooth mobile-ready scrollable UI       |
-
----
+-------------------------------------------------------------------------
+| Stack                    | Description                                |
+|--------------------------|--------------------------------------------|
+| **Next.js**              | App Router (v14.2.15)                      |
+| **React 18**             | UI Framework                               |
+| **Tailwind CSS**         | Utility-first styling                      |
+| **ShadCN UI**            | Dialog, Select, Carousel via Radix + Embla |
+| **Lucide + React Icons** | Iconography                                |
+| **Theme Support**        | Dark/Light via `next-themes`               |
+| **Embla Carousel**       | Smooth mobile-ready scrollable UI          |
+-------------------------------------------------------------------------
 
 ## 📦 Installation
 
