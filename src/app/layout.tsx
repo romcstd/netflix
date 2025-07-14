@@ -23,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" app-version="release-v3.5">
+    <html lang="en" app-version="release-v3.6">
       <body className={`${inter.variable} ${montserrat.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main>{children}</main>
