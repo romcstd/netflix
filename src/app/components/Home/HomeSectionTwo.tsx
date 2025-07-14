@@ -1,10 +1,10 @@
 import shows from "@/app/data/shows.json";
 import Image from 'next/image';
 
-export default function HomeBannerTwo() {
+export default function HomeSectionTwo() {
     const globalSeries = shows.entertainment.globalShows;
     return (
-        <section className="relative pt-12 pb-12 bg-background">
+        <section className="relative py-16 bg-background">
             <div className="container mx-auto grid place-items-center">
                 <div className="mb-8 text-center max-w-3xl">
                     <div className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">One Episode Is Never Enough</div>

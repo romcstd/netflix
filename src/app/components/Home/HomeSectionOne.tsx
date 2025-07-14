@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function HomeBannerOne() {
     const globalMovies = shows.entertainment.globalMovies;
     return (
-        <section className="relative pt-12 pb-12 bg-background">
+        <section className="relative py-16 bg-secondary">
             <div className="container mx-auto grid place-items-center">
                 <div className="mb-8 text-center max-w-4xl">
                     <div className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">This Week’s Most Watched Movies</div>
